@@ -1,0 +1,16 @@
+footer {
+  z-index:10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 70px;
+  max-height: 70px;
+  width: 100%;
+  overflow-y: hidden;
+  .footer__saav {
+    img {
+      height: 100px;
+    }
+  }
+}
