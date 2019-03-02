@@ -3,7 +3,7 @@ let focusPortfolioItem = (id, isBody = false) => {
     'background-color: rebeccapurple',
     'font-size: 64px'
   ].join(';');
-  console.log('%c hit focusPortfolioItem', style);
+  //console.log('%c hit focusPortfolioItem', style);
 
   let el = document.querySelector(`#${id}`);
   if (isBody && el.classList.contains('portfolio__item--active')) { return;}
@@ -94,8 +94,15 @@ let closeContactForm = () => {
   }, 500);
 
 }
+let onInputFocus = () => {
+    alert("ASDF");
+}
 
 (() => {
+  document.querySelectorAll('input').forEach((el) => {
+    console.log(typeof el);
+    el.addEventListener('click', () => { console.log('asdf');el.focus(); });
+  });
   for (let el of document.querySelectorAll('.portfolio__item')) {
     //el.onclick = () => { focusPortfolioItem(el.id, true) };
 
@@ -115,4 +122,5 @@ let closeContactForm = () => {
     } // end for child
   } // end for el
 
+  document.getElementById("cr-date").innerHTML = new Date().getFullYear();
 })()

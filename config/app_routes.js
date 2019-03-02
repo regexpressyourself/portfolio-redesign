@@ -35,19 +35,17 @@ module.exports = (app) => {
     return;
   });
 
-  app.get('/', (req, res) => {
-    app.use('/', express.static('public'));
-    app.use('/images', express.static('public/static/images'));
-    app.use('/css', express.static('public/static/css'));
-    app.use('/js', express.static('public/static/js'));
-    res.sendFile(path.join(__dirname, '../public/index.html'));
-    return;
-  });
-
   app.use('/', express.static('public'));
   app.use('/images', express.static('public/static/images'));
   app.use('/css', express.static('public/static/css'));
   app.use('/js', express.static('public/static/js'));
+  app.use('/fonts', express.static('public/static/fonts'));
+
+  app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
+    return;
+  });
+
   app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../public/404.html'));
   });
