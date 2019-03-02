@@ -58,11 +58,42 @@ section {
   }
 }
 .fourohfour-section {
-  min-height: 100vh;
+  background-color: $blue;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 100vh;
+  h1 {
+    margin-top: unset;
+    padding: 0;
+    text-align: center;
+  }
+  header {
+    min-height: unset;
+    height: unset;
+  }
+  & >div {
+    max-width: 80%;
+  }
+
+  a.image {
+    text-align: center;
+    img {
+      width: 50%;
+      max-width: 450px;
+      min-width: 200px;
+      margin: auto;
+    }
+  }
+  a.btn.btn--learnmore,
+  button.btn.btn--learnmore {
+    position: static;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+  }
+
 }
 
 .blue-section,
@@ -975,6 +1006,7 @@ button.btn--form {
 }
 
 
+a.btn.btn--learnmore,
 button.btn.btn--learnmore {
   z-index: 10000;
   position: absolute;
@@ -985,11 +1017,16 @@ button.btn.btn--learnmore {
   border: 2px solid $blue;
   animation: none;
   bottom: 10vh;
+  background-color: white;
+  color: $blue;
   @media screen and (min-width: 920px) {
     bottom: 20vh;
   }
 }
+a.btn.btn--learnmore:hover,
 button.btn.btn--learnmore:hover {
   border: 2px solid white;
   box-shadow: none;
+  background-color: $blue;
+  color: white;
 }

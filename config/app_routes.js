@@ -20,7 +20,7 @@ module.exports = (app) => {
     nodemailerMailgun.sendMail({
       from: req.body.email,
       to: 'samuel.messina@gmail.com',
-      subject: 'New message from samandavan',
+      subject: 'New message from smessina.com',
       html: `<p>New message from: <b>${req.body.name}</b> (<a href="mailto:${req.body.email}">${req.body.email}</a>)</p>
 <p><em>Message:</em><br />${req.body.message}</p>
       `
