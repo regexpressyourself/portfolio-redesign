@@ -2,7 +2,7 @@
 
 # Portfolio
 
-My portfoio! 
+My portfolio! 
 
 [See it live here!](https://smessina.com)
 
