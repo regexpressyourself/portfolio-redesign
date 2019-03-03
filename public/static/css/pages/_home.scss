@@ -701,7 +701,7 @@ p.dark {
 .contact-section--active {
   .contact-header__bg {
     transform: none;
-    height: 100%;
+    height: auto;
     background-color: transparent;
     z-index: -1;
   }
