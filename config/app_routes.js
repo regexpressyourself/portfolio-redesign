@@ -27,12 +27,21 @@ module.exports = (app) => {
     }, (err, info) => {
       if (err) {
         console.log(`Error: ${err}`);
+        res.redirect('/oops');
       }
       else {
         console.log(`Response: ${info}`);
+        res.redirect('/thank-you');
       }
     });
     return;
+  });
+
+  app.get('/thank-you', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/thank-you.html'));
+  });
+  app.get('/oops', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/mail-error.html'));
   });
 
   app.use('/', express.static('public'));

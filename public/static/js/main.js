@@ -3,7 +3,6 @@ let focusPortfolioItem = (id, isBody = false) => {
     'background-color: rebeccapurple',
     'font-size: 64px'
   ].join(';');
-  //console.log('%c hit focusPortfolioItem', style);
 
   let el = document.querySelector(`#${id}`);
   if (isBody && el.classList.contains('portfolio__item--active')) { return;}
@@ -55,11 +54,6 @@ let openContactForm = () => {
 
   form.classList.add('contact-form--active');
   section.classList.add('contact-section--active');
-  //form.classList.add('contact-form--active--transition');
-  //section.classList.add('contact-section--active--transition');
-  //
-  //
-  //
   document.onkeydown = function(evt) {
     console.log("sdflkj");
     evt = evt || window.event;
@@ -104,7 +98,6 @@ let onInputFocus = () => {
     el.addEventListener('click', () => { console.log('asdf');el.focus(); });
   });
   for (let el of document.querySelectorAll('.portfolio__item')) {
-    //el.onclick = () => { focusPortfolioItem(el.id, true) };
 
     for (let child of el.childNodes) {
       if (child.classList === undefined) {continue;}
@@ -115,7 +108,6 @@ let onInputFocus = () => {
         break;
       }
       if (child.classList.contains('item__img-container')) {
-        //child.onclick = () => { focusPortfolioItem(el.id, true) };
         child.onclick = () => { focusPortfolioItem(el.id, false) };
         break;
       }

@@ -64,6 +64,7 @@ section {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  padding: 5%;
   h1 {
     margin-top: unset;
     padding: 0;
@@ -1029,4 +1030,14 @@ button.btn.btn--learnmore:hover {
   box-shadow: none;
   background-color: $blue;
   color: white;
+}
+
+.mail-link-blurb {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  a {
+    font-weight: 600;
+    color: white;
+  }
 }
