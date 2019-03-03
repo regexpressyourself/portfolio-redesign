@@ -712,19 +712,22 @@ p.dark {
   overflow-y: scroll;
   padding-top: 10vh;
   padding-left: 10vw;
-  background-color: $white--trans;
+  background-color: $blue;
+  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
   top: 0;
   left: 0;
   z-index: 10000;
+  animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
   @media screen and (max-width: 420px) {
     overflow-y: scroll;
   }
   span.x {
-
+    color: white;
     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     top: 20px;
     @media screen and (max-width: 420px) {
+      color: #000333;
       top: 5px;
     }
 
@@ -754,6 +757,7 @@ p.dark {
 }
 
 .contact-section--active--out-trans {
+  animation: slide-bot 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
   background-color: transparent;
   span.x {
     top: 100%;
