@@ -2,15 +2,21 @@
   font-family: 'GilroyBold';
   src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
 }
+
 @font-face {
   font-family: 'GilroyLight';
   src: url("/fonts/Gilroy-Light.otf") format("opentype");
 }
 
+main {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
 $gutter-size: 10vw;
 
 #home {
-  //padding: 2vw 0 0;
   color: #000333;
   em {
     font-weight: 400;
@@ -30,25 +36,17 @@ $gutter-size: 10vw;
     font-size: 6vw;
   }
 }
+
 .callout {
   border-left: 5px solid $red;
-  //color: $red;
   font-weight: 600;
   padding: 20px;
-  a {
-  }
-
 }
 
 section {
   min-height: 200px;
-  //padding: 5vw $gutter-size;
-  //border-top-left-radius: 8vw;
-  //border-top-right-radius: 8vw;
-  //background-color: white;
-  //margin-top: -8vw;
-  //border-top: 1px solid $red;
 }
+
 .contact-section,
 .portfolio-section__portfolio {
   padding: 5vw $gutter-size;
@@ -57,8 +55,10 @@ section {
     padding: 5vw $gutter-size;
   }
 }
+
 .fourohfour-section {
   background-color: $blue;
+  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@ section {
     min-height: unset;
     height: unset;
   }
-  & >div {
+  &>div {
     max-width: 80%;
   }
 
@@ -97,14 +97,6 @@ section {
 
 }
 
-.blue-section,
-section:nth-of-type(2n) {
-  //padding-bottom: 13vw;
-  //margin-top: 0;
-  //background-color: $blue;
-}
-
-
 header {
   height: 100vh;
   @media only screen and (max-width: 420px) {
@@ -115,19 +107,20 @@ header {
   }
 }
 
-header, 
+header,
 #project-header,
 #project-subheader {
   position: relative;
   overflow: hidden;
 }
 
-#project-header{
+#project-header {
   padding: 0 5%;
 }
+
 .header__bg,
-.project-header__bg, 
-.contact-header__bg{
+.project-header__bg,
+.contact-header__bg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -137,29 +130,38 @@ header,
   height: 100%;
   z-index: -1;
 }
+
 #projects {
   min-height: 50%;
 }
-.project-header__bg{
+
+.project-header__bg {
   transform: skewY(-6deg);
   transform-origin: top left;
   border-bottom: 1px solid #444242;
 }
+
 .project-header-text {
   padding: 10% 0 15%;
   max-width: 66vw;
 }
+
 .header__bg {
-  background-color: #4772D9;
+  background-color: $blue;
+  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
   transform: skewY(6deg);
   transform-origin: top right;
 }
 
-h1, h2, h3, #messina {
+h1,
+h2,
+h3,
+#messina {
   font-family: 'GilroyBold', Arial, sans-serif;
   font-weight: 400;
 }
-h2 + span{
+
+h2+span {
   font-family: 'GilroyLight', Arial, sans-serif;
   font-weight: 200;
   font-size: 5vw;
@@ -185,20 +187,23 @@ h2 {
   }
   @media only screen and (max-width: 768px) {
     font-size: 12vw;
-    & + span {
+    &+span {
       font-size: 9vw;
       line-height: 1;
       margin-bottom: -10px;
     }
   }
 }
+
 .contact-header {
-  line-height: .75; 
+  line-height: .75;
   margin-bottom: 40px;
 }
+
 span.contact-subhead {
   font-size: calc(2.5vw + 12px);
 }
+
 h1 {
   line-height: .8;
   padding: 5% 3%;
@@ -217,11 +222,13 @@ h1 {
     font-size: 12vw;
   }
 }
+
 #smessina-tag {
   font-family: 'GilroyLight', Arial, sans-serif;
   font-weight: 200;
   font-size: 50%;
 }
+
 #messina {
   margin-left: 12%;
 }
@@ -257,6 +264,7 @@ h1 {
   border: 5px solid $blue;
   margin: 5px 0;
 }
+
 .header__hr--white {
   border: 5px solid white;
 }
@@ -285,6 +293,7 @@ h1 {
     }
   }
 }
+
 .btn--mid-portfolio {
   margin: 40px auto;
   @media screen and (max-width: 768px) {
@@ -293,11 +302,7 @@ h1 {
 }
 
 button.btn--learnmore:hover svg {
-  transform: rotate(90deg); 
-}
-
-.webdev-section,
-.marketing-section {
+  transform: rotate(90deg);
 }
 
 .text-copy {
@@ -310,6 +315,7 @@ button.btn--learnmore:hover svg {
     font-size: calc(1.5vw + 12px);
   }
 }
+
 p.dark {
   font-size: calc(1.5vw + 12px);
   color: $deepblue;
@@ -330,7 +336,6 @@ p.dark {
   &.text-copy--aside--right,
   &:nth-of-type(2n) {
     strong {
-      //margin-left: 30px;
       margin-right: 0;
     }
   }
@@ -438,7 +443,7 @@ p.dark {
       }
       a {
         background: none;
-        outline:none;
+        outline: none;
         margin-bottom: -10%;
         @media screen and (max-width: 768px) {
           margin-bottom: 0;
@@ -578,6 +583,7 @@ p.dark {
 .portfolio__item--passman .item__img-container {
   background-color: #70c1b3;
 }
+
 .portfolio__item--lysten .item__img-container {
   background-color: #fffaff;
 }
@@ -608,15 +614,18 @@ p.dark {
 
 /* ===== Contact Section ===== */
 
-.contact-header__bg{
+.contact-header__bg {
   transform: skewY(6deg);
   transform-origin: top right;
-  background-color: #4772D9;
+  background-color: $blue;
+  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
+  height: 150%;
   z-index: -1;
 }
+
 .contact-form {
   background-color: white;
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
   padding: 5%;
   div {
     display: flex;
@@ -645,8 +654,6 @@ p.dark {
         height: 100%;
         min-height: 28vh;
         margin-top: 35px;
-        @media screen and (max-width: 768px) {
-        }
       }
       @media screen and (max-width: 420px) {
         margin-top: 0;
@@ -671,7 +678,6 @@ p.dark {
 
 .contact-section {
   position: relative;
-  background-color: #4772D9;
   span.x {
     transition: top .4s;
     top: 150%;
@@ -688,19 +694,19 @@ p.dark {
     }
   }
 }
+
 .contact-blurb {
   line-height: 1.2;
 }
 
 .contact-section--active {
-  .contact-header__bg{
+  .contact-header__bg {
     transform: skewY(6deg);
     transform-origin: top right;
     background-color: transparent;
     z-index: -1;
   }
   transition: background-color .5s;
-  //animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -749,7 +755,6 @@ p.dark {
 }
 
 .contact-section--active--out-trans {
-  //animation: slide-bot 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
   background-color: transparent;
   span.x {
     top: 100%;
@@ -765,6 +770,7 @@ input:focus {
   outline: 0;
   height: auto;
 }
+
 /* Question */
 
 input.question,
@@ -777,15 +783,18 @@ textarea.question {
   width: 100%;
   background: rgba(0, 0, 0, 0);
   transition: padding-top 0.2s ease, margin-top 0.2s ease;
-  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+  overflow-x: hidden;
+  /* Hack to make "rows" attribute apply in Firefox. */
 }
+
 textarea.question {
   width: 92%;
 }
+
 /* Underline and Placeholder */
 
-input.question + label,
-textarea.question + label {
+input.question+label,
+textarea.question+label {
   display: block;
   position: relative;
   white-space: nowrap;
@@ -798,8 +807,8 @@ textarea.question + label {
   width: 100%;
 }
 
-input.question:focus + label,
-textarea.question:focus + label {
+input.question:focus+label,
+textarea.question:focus+label {
   width: 80%;
   height: auto;
 }
@@ -817,16 +826,18 @@ textarea.question:focus {
 }
 
 input.question:invalid {
-  color: rgba(0,0,0,.1);
+  color: rgba(0, 0, 0, .1);
 }
+
 input.question:active,
 input.question:focus,
-input.question:valid  {
+input.question:valid {
   color: black;
 }
-input.question:active+ label > span,
-input.question:focus + label > span,
-input.question:valid + label > span {
+
+input.question:active+label>span,
+input.question:focus+label>span,
+input.question:valid+label>span {
   top: -60px;
   font-size: calc(.5vw + 16px);
   font-weight: 600;
@@ -843,8 +854,8 @@ input.question:valid + label > span {
   }
 }
 
-textarea.question:focus + label > span,
-textarea.question:valid + label > span {
+textarea.question:focus+label>span,
+textarea.question:valid+label>span {
   top: -35vh;
   font-weight: 600;
   color: $deepblue;
@@ -861,16 +872,10 @@ textarea.question:valid + label > span {
   }
 }
 
-//input.question.was-clicked:invalid + label,
-//textarea.question.was-clicked:invalid + label {
-//border-color: red;
-//border-width: 5px;
-//}
-
-input.question + label,
-textarea.question + label,
-input.question:valid + label,
-textarea.question:valid + label {
+input.question+label,
+textarea.question+label,
+input.question:valid+label,
+textarea.question:valid+label {
   border-color: $blue;
   border-width: 5px;
 }
@@ -880,8 +885,8 @@ textarea.question:invalid {
   box-shadow: none;
 }
 
-input.question + label > span,
-textarea.question + label > span {
+input.question+label>span,
+textarea.question+label>span {
   font-weight: 300;
   margin: 0;
   position: absolute;
@@ -895,8 +900,11 @@ textarea.question + label > span {
     top: -50px;
   }
 }
-textarea.question + label > span {
+
+textarea.question+label>span {
   top: -30vh;
+  max-width: 100%;
+  white-space: normal;
 }
 
 a.btn,
@@ -914,10 +922,6 @@ button.btn {
     }
     @media screen and (min-width: 1200px) {
       margin: 0 15px 0 15px;
-    }
-  }
-  &:hover {
-    svg {
     }
   }
 }
@@ -940,6 +944,7 @@ button.btn--webdev {
     margin-left: auto !important;
   }
 }
+
 button.btn--mktg {
   z-index: 1;
   &:hover {
@@ -955,6 +960,7 @@ button.btn--mktg {
     margin-right: auto !important;
   }
 }
+
 button.btn--learnmore {
   &:hover {
     svg {
@@ -962,9 +968,11 @@ button.btn--learnmore {
     }
   }
 }
+
 a.btn--fourohfour {
   margin: 10px;
 }
+
 button.btn--startproject {
   svg {
     transform: rotate(-90deg);
@@ -975,6 +983,7 @@ button.btn--startproject {
     }
   }
 }
+
 button.btn--touch {
   z-index: 1;
   &:focus {
@@ -989,6 +998,7 @@ button.btn--touch {
     }
   }
 }
+
 button.btn--mid-portfolio {
   &:hover {
     svg {
@@ -1025,11 +1035,13 @@ button.btn.btn--learnmore {
     bottom: 20vh;
   }
 }
+
 a.btn.btn--learnmore:hover,
 button.btn.btn--learnmore:hover {
   border: 2px solid white;
   box-shadow: none;
   background-color: $blue;
+  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
   color: white;
 }
 
