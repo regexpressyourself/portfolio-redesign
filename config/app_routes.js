@@ -43,6 +43,9 @@ module.exports = (app) => {
   app.get('/oops', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/mail-error.html'));
   });
+  app.get('/resume.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/static/documents/style.css'));
+  });
   app.get('/resume.json', (req, res) => {
     const resume = require('../public/static/documents/resume.json')
     res.setHeader('Content-Type', 'application/json');
