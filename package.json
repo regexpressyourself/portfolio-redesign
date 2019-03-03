@@ -4,8 +4,7 @@
 	"description": "Sam Messina's portfolio and Node server",
 	"main": "app.js",
 	"scripts": {
-		"server": "node app.js",
-		"client": "webpack --config webpack.config.js"
+    "start": "node app.js & gulp"
 	},
 	"repository": {
 		"type": "git",
