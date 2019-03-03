@@ -8,10 +8,6 @@ My portfolio!
 
 
 
-## Introduction
-
-Practice Buddy is currently in development. The final product will consist of three major components: modes, chords, and charts. The components are detailed below.
-
 
 ## Getting Started
 
@@ -22,21 +18,7 @@ Practice Buddy is currently in development. The final product will consist of th
    yarn run start
 ```
 
-   That's it! Your development server is running at [http://localhost:8080](http://localhost:8080)
+   That's it! Your development server is running at [http://localhost:3009](http://localhost:3009)
    
-   Webpack is configured with hot reloading, so any changes saved to source files will be immediately reflected in the browser.
-
-### Production Build
-
-To build a production version of the app, with all React code loaded into a bundled, minified Javascript file, you need to run the `production` script declared in package.json.
-
-```
-   yarn run production
-```
-
-   This will leave you with an `index.html` and an `index_bundle.js` file in the build directory. Hosting these files from the same location will serve the production build of Practice Buddy.
-
-**[Back to top](#table-of-contents)**
-
 
 
