@@ -1,4 +1,4 @@
-const path = require('path');
+czR/onst path = require('path');
 const nodemailer = require('nodemailer');
 const mg = require('nodemailer-mailgun-transport');
 const express = require('express');

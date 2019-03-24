@@ -120,7 +120,7 @@
       "name": "PersonaList",
       "releaseDate": "2018-10-01",
       "website": "personalist.smessina.com",
-      "summary": "PersonaList allows users to add comments to Spotify playlists, for easier playlist collaboration. PersonaList uses the Spotify API to pull data into a NodeJS server. The app is dynamically rendered with native ES6 JavaScript to emulate capabilities usually bundled with a front end framework like React or Vue."
+      "summary": "PersonaList allows users to add comments to Spotify playlists, for easier playlist collaboration. PersonaList uses the Spotify API to pull data into a NodeJS server. The app is dynamically rendered with React, using the React Hooks API to acheive a functional model throughout the app."
     },
     {
       "name": "Git Flow",

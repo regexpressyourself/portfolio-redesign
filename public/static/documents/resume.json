@@ -21,9 +21,9 @@
       "highlights": [
         "Lead front end engineering by developing templates using Python's Django, Hubspot HubL, and MJML as well as Angular 2 components and custom Wordpress themes using Gulp, SCSS, and ES6 JavaScript, ensuring performance and accessibility",
         "Create living style guide and component library with native HTML, JavaScript, and CSS, reusable across all internal tech stacks",
-        "Increase conversion rate through a new attribution solution using Google Analytics, Hubspot, and PostgreSQL",
+        "Increase conversion rate by 10% through a new attribution solution using Google Analytics, Hubspot, and PostgreSQL",
         "Orchestrate Search Engine Optimization (SEO) strategy resulting in a 25% increase in organic search traffic",
-        "Hire front end development positions, implementing technical tests and question sets to verify skills",
+        "Lead hiring process for front end development positions, implementing technical tests and question sets to verify skills",
         "Manage tracking pixels, analytics solutions, and attribution systems to monitor and measure all digital marketing efforts"
       ]
     },
@@ -120,7 +120,7 @@
       "name": "PersonaList",
       "releaseDate": "2018-10-01",
       "website": "personalist.smessina.com",
-      "summary": "PersonaList allows users to add comments to Spotify playlists, for easier playlist collaboration. PersonaList uses the Spotify API to pull data into a NodeJS server. The app is dynamically rendered with native ES6 JavaScript to emulate capabilities usually bundled with a front end framework like React or Vue."
+      "summary": "PersonaList allows users to add comments to Spotify playlists, for easier playlist collaboration. PersonaList uses the Spotify API to pull data into a NodeJS server. The app is dynamically rendered with React, using the React Hooks API to acheive a functional model throughout the app."
     },
     {
       "name": "Git Flow",

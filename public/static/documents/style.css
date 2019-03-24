@@ -6,17 +6,21 @@ body {
 }
 
 a {
-  color: #333333;
+  color: #5079e1;
   text-decoration: none;
 }
 
 a:visited {
-  color: #4e4e4e;
+  color: #5079e1;
 }
 
 a:hover {
-  color: #4e4e4e;
+  color: #5079e1;
   text-decoration: underline;
+}
+
+strong {
+  color: black;
 }
 
 .header {
@@ -127,11 +131,7 @@ li {
 }
 
 .keywords {
-  /*background-color: #333333;*/
-  /*color: #fff;*/
-  /*padding: 6px;*/
   font-size: 1.2em;
-  /*margin-bottom: 5px;*/
   display: inline-block;
 }
 
