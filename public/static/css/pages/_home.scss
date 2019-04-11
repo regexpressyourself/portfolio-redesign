@@ -15,6 +15,20 @@ main {
 }
 
 $gutter-size: 10vw;
+h1,
+h2,
+h3,
+#sam,
+#messina {
+  font-family: 'GilroyBold', Arial, sans-serif;
+  font-weight: 400;
+}
+
+h2+span {
+  font-family: 'GilroyLight', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 5vw;
+}
 
 #home {
   color: #000333;
@@ -32,6 +46,9 @@ $gutter-size: 10vw;
   color: white;
   right: 20px;
 
+  animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  display:inline-block;
+  animation-delay: 1.6s;
   @media screen and (max-width: 920px) {
     font-size: 6vw;
   }
@@ -153,19 +170,6 @@ header,
   transform-origin: top right;
 }
 
-h1,
-h2,
-h3,
-#messina {
-  font-family: 'GilroyBold', Arial, sans-serif;
-  font-weight: 400;
-}
-
-h2+span {
-  font-family: 'GilroyLight', Arial, sans-serif;
-  font-weight: 200;
-  font-size: 5vw;
-}
 
 h3 {
   margin-top: 0;
@@ -223,14 +227,26 @@ h1 {
   }
 }
 
-#smessina-tag {
-  font-family: 'GilroyLight', Arial, sans-serif;
-  font-weight: 200;
-  font-size: 50%;
+#messina, 
+#sam {
+  animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  display:inline-block;
+  animation-delay: .1s;
 }
 
 #messina {
   margin-left: 12%;
+  animation-delay: 1.3s;
+  animation-duration: .5s;
+}
+
+#smessina-tag {
+  font-family: 'GilroyLight', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 50%;
+  display: inline-block;
+  animation: slide-in-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: .6s;
 }
 
 .header__logo {
@@ -1055,5 +1071,45 @@ button.btn.btn--learnmore:hover {
   a {
     font-weight: 600;
     color: white;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom{
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top{
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
