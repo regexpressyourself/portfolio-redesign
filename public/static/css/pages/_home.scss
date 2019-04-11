@@ -1,3 +1,10 @@
+.header__bg {
+  background-color: $blue;
+  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
+  transform: skewY(6deg);
+  transform-origin: top right;
+}
+
 @font-face {
   font-family: 'GilroyBold';
   src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
@@ -161,13 +168,6 @@ header,
 .project-header-text {
   padding: 10% 0 15%;
   max-width: 66vw;
-}
-
-.header__bg {
-  background-color: $blue;
-  background-image: linear-gradient(to left bottom, #4772d9, #4f78e0, #577ee7, #5f85ef, #678bf6);
-  transform: skewY(6deg);
-  transform-origin: top right;
 }
 
 
