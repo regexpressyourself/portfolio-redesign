@@ -59,6 +59,9 @@ module.exports = (app) => {
   app.get('/resume', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/static/documents/resume.html'));
   });
+  app.get('/robots.txt', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/robots.txt'));
+  });
 
   app.use('/', express.static('public'));
   app.use('/docs', express.static('public/static/documents'));
