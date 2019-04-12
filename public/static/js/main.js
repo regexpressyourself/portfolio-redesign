@@ -34,7 +34,6 @@ let focusPortfolioItem = (id, isBody = false) => {
 
 
 let scrollDownTo = (className) => {
-  console.log(className);
   let el = document.querySelector(`.${className}`);
   el.scrollIntoView({
     behavior: 'smooth'
@@ -55,7 +54,6 @@ let openContactForm = () => {
   form.classList.add('contact-form--active');
   section.classList.add('contact-section--active');
   document.onkeydown = function(evt) {
-    console.log("sdflkj");
     evt = evt || window.event;
     var isEscape = false;
     if ("key" in evt) {
@@ -94,8 +92,7 @@ let onInputFocus = () => {
 
 (() => {
   document.querySelectorAll('input').forEach((el) => {
-    console.log(typeof el);
-    el.addEventListener('click', () => { console.log('asdf');el.focus(); });
+    el.addEventListener('click', () => { el.focus(); });
   });
   for (let el of document.querySelectorAll('.portfolio__item')) {
 
