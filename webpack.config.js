@@ -51,22 +51,22 @@ module.exports = {
       },
       {
         test: /\.(html)$/,
-        use: {
-          loader: 'html-loader',
-          options: {
-            attrs: [':data-src']
-          }
-        }
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              minimize: true,
+              removeComments: true,
+              collapseWhitespace: true,
+              attrs: ['img:src']
+            }
+          },
+        ]
       },
       {
         test: /\.(png|jpg|svg)$/,
         use: [
-          {
-            loader: 'url-loader',
-            //options: {
-              //limit: 1000,
-            //},
-          },
+          'file-loader',
         ],
       },
     ],
@@ -81,6 +81,11 @@ module.exports = {
     new webpack.SourceMapDevToolPlugin({
       filename: '[file].map',
     }),
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: true,
+      template: './public/index.html',
+      filename: 'index.html',
+    }),
   ],
 };
