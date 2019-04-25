@@ -20,7 +20,7 @@
       "summary": "As lead front end developer and digital marketing engineer, I sit between marketing and tech to create reusable front end assets, implement digital marketing tools, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
         "Lead front end engineering by developing templates using Python's Django, Hubspot HubL, and MJML as well as Angular 2 components and custom Wordpress themes using Gulp, SCSS, and ES6 JavaScript, ensuring performance and accessibility",
-        "Create living style guide and component library with native HTML, JavaScript, and CSS, reusable across all internal tech stacks",
+        "Design, develop, and implement a component library, using Webpack to compile ES6 JavaScript and SCSS into static JavaScript and CSS, able to be easily added to any tech stack",
         "Increase conversion rate by 10% through a new attribution solution using Google Analytics, Hubspot, and PostgreSQL",
         "Orchestrate Search Engine Optimization (SEO) strategy resulting in a 25% increase in organic search traffic",
         "Lead hiring process for front end development positions, implementing technical tests and question sets to verify skills",
