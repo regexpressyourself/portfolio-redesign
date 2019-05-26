@@ -1,4 +1,4 @@
-let focusPortfolioItem = (id, isBody = false) => {
+window.focusPortfolioItem = (id, isBody = false) => {
   let style = [
     'background-color: rebeccapurple',
     'font-size: 64px'
@@ -33,14 +33,14 @@ let focusPortfolioItem = (id, isBody = false) => {
 }
 
 
-let scrollDownTo = (className) => {
+window.scrollDownTo = (className) => {
   let el = document.querySelector(`.${className}`);
   el.scrollIntoView({
     behavior: 'smooth'
   });
 }
 
-let openContactForm = () => {
+window.openContactForm = () => {
   let form = document.querySelector('.contact-form');
   let section = document.querySelector('.contact-section');
   let buttons = document.querySelectorAll('.btn');
@@ -67,7 +67,7 @@ let openContactForm = () => {
   };
 }
 
-let closeContactForm = () => {
+window.closeContactForm = () => {
   let form = document.querySelector('.contact-form');
   let section = document.querySelector('.contact-section');
   let buttons = document.querySelectorAll('.btn');
@@ -85,9 +85,6 @@ let closeContactForm = () => {
     section.classList.remove('contact-section--active');
   }, 500);
 
-}
-let onInputFocus = () => {
-    alert("ASDF");
 }
 
 (() => {
