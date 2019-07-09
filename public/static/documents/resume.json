@@ -13,15 +13,15 @@
   },
   "work": [
     {
-      "company": "Topstep LLC",
-      "position": "Front End Developer & Digital Marketer",
+      "company": "TopstepTrader",
+      "position": "Front End Developer",
       "website": "https://www.topsteptrader.com",
       "startDate": "2018-06-01",
-      "summary": "As lead front end developer and digital marketing engineer, I sit between marketing and tech to create reusable front end assets, implement digital marketing tools, orchestrate testing and data analysis, and automate marketing processes.",
+      "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
-        "Lead front end engineering by developing templates using Python's Django, Hubspot HubL, and MJML as well as Angular 2 components and custom Wordpress themes using Gulp, SCSS, and ES6 JavaScript, ensuring performance and accessibility",
-        "Design, develop, and implement a component library, using Webpack to compile ES6 JavaScript and SCSS into static JavaScript and CSS, able to be easily added to any tech stack",
-        "Increase conversion rate by 10% through a new attribution solution using Google Analytics, Hubspot, and PostgreSQL",
+        "Lead front end engineering, ensuring performance and accessibility, working with Python's Django templates, Hubspot HubL, and MJML as well as Angular 2 components and custom Wordpress themes using Gulp, SCSS, and ES6 JavaScript",
+        "Design, develop, and implement a component library, using Webpack to compile ES6 JavaScript and SCSS into static JavaScript and CSS, able to be used across the organization's diverse set of technologies",
+        "Increase performance 300% through a site migration from Wordpress to a custom Node and Gulp solution",
         "Orchestrate Search Engine Optimization (SEO) strategy resulting in a 25% increase in organic search traffic",
         "Lead hiring process for front end development positions, implementing technical tests and question sets to verify skills",
         "Manage tracking pixels, analytics solutions, and attribution systems to monitor and measure all digital marketing efforts"
@@ -29,21 +29,21 @@
     },
     {
       "company": "Southern Illinois University",
-      "position": "Web Developer & Research Assistant",
+      "position": "Student Web Developer",
       "website": "https://www.siu.edu",
       "startDate": "2014-01-20",
       "endDate": "2018-05-15",
       "summary": "Working on the university website gave me the opportunity to write custom features for faculty, tech sessions on using our CMS, and help lead an holistic SEO initiative.",
       "highlights": [
         "Authored custom web pages, forms, and apps for university departments using HTML, CSS, JavaScript, and PHP",
-        "Organized and led classes detailing basic HTML, content creation, and best UI/UX practices for ~200 users",
         "Designed and authored Python applications to speed up or automate bottlenecks in the team’s recurring workflows",
-        "Updated HTML meta descriptions, titles, content tags, structured data, and page content, improving SEO site-wide"
+        "Organized and led classes detailing basic HTML, content creation, and best UI/UX practices for ~200 users",
+        "Improved SEO site-wide through HTML meta descriptions, titles, content tags, structured data, and page content, "
       ]
     },
     {
       "company": "MacUpdate",
-      "position": "Web Development Intern",
+      "position": "Web Developer Intern",
       "website": "https://www.macupdate.com",
       "startDate": "2016-06-01",
       "endDate": "2017-09-01",
