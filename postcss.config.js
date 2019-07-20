@@ -1,5 +1,8 @@
 module.exports = {
   plugins: [
-    require('autoprefixer')
+    require('postcss-import'),
+    require('autoprefixer')({
+      'browsers': ['> 1%', 'last 2 versions', 'ie 11']
+    })
   ]
 }
