@@ -480,11 +480,11 @@ p.dark {
         }
       }
       img {
-        transition: width 0.5s, opacity 0.3s;
+        transition: padding 0.5s, opacity 0.3s;
         width: 100%;
         opacity: 0;
         &:hover {
-          width: 80%;
+          padding: 10%;
         }
 
         @media screen and (max-width: 420px) {
