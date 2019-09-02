@@ -11,7 +11,7 @@ const auth = {
     domain: 'sandbox2df17558b974464bb637958019d216f4.mailgun.org'
   }
 }
-const nodemailerMailgun = nodemailer.createTransport(mg(auth));
+//const nodemailerMailgun = nodemailer.createTransport(mg(auth));
 
 module.exports = (app) => {
   // POST route from contact form
