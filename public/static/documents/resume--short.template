@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="short">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Sam Messina | Developer | Resume</title>
+
+    <meta
+      name="description"
+      content="Sam Messina is a full stack web developer with a passion for the front end. Fan of all things Javascript, from Node to React. Part time polyglot, with interest in C, Python, and Ruby."
+    />
+
+    <link rel="icon" href="https://smessina.com/images/sm_fav-fs8.png" sizes="32x32" />
+    <link rel="icon" href="https://smessina.com/images/sm_fav-fs8.png" sizes="192x192" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Montserrat:400,700,900|Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <style>
+      {{styles}}
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>{{basics.capitalName}}</h1>
+      <div class="contact-header">
+        {{basics.location.city}}, {{basics.location.region}}
+        <br />
+        {{basics.phone}}
+        <br />
+        <a href="{{basics.website}}" target="_blank">{{basics.email}}</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <hr />
+      <section id="education">
+        <h2>EDUCATION</h2>
+        {{#education}}
+        <div class="heading-inline">
+          <h3>
+            {{studyType}} {{area}} | {{institution}}
+          </h3>
+          <p class="date">{{endDateMonth}}{{endDateYear}}</p>
+        </div>
+        {{/education}}
+      </section>
+
+      <hr />
+
+      <section id="work">
+        <h2>WORK EXPERIENCE</h2>
+        {{#work}}
+        <div class="job">
+          <div class="heading-inline">
+            <h3>{{position}} | {{company}}</h3>
+            <p class="date">
+              {{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}
+            </p>
+          </div>
+          <!--<p class="job-summary">{{summary}}</p>-->
+          {{#workHighlights}}
+          <ul class="job-list">
+            {{#highlights}}
+            <li class="job-list__item">{{.}}</li>
+            {{/highlights}}
+          </ul>
+          {{/workHighlights}}
+        </div>
+        {{/work}}
+      </section>
+      <hr />
+      <section id="publications" class="publications">
+        <h2>PERSONAL PROJECTS</h2>
+        {{#publications}}
+        <div class="heading-inline heading-inline--publications">
+          <h3>
+            {{name}}
+            <a class="project-link" href="https://{{website}}" target="_blank">{{website}}</a>
+          </h3>
+          <p class="date">
+            {{year}}
+          </p>
+        </div>
+        <p class="publications-summary">{{summary}}</p>
+        {{/publications}}
+      </section>
+    </main>
+  </body>
+</html>

@@ -13,49 +13,53 @@
   },
   "work": [
     {
-      "company": "Topstep LLC",
-      "position": "Front End Developer & Digital Marketer",
+      "company": "TopstepTrader",
+      "position": "Front End Developer",
       "website": "https://www.topsteptrader.com",
       "startDate": "2018-06-01",
-      "summary": "As lead front end developer and digital marketing engineer, I sit between marketing and tech to create reusable front end assets, implement digital marketing tools, orchestrate testing and data analysis, and automate marketing processes.",
+      "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
-        "Lead front end engineering and development using a wide variety of front and back end technologies",
-        "Create resusable living style guide and component library using native web technology",
-        "Developed attribution solution to better analyze user journey and increase conversion rate by 10%",
-        "Orchestrate SEO strategy resulting in a 25% increase in organic search traffic",
-        "Lead hiring process for front end development positions, implementing technical tests to verify skills",
-        "Manage tracking pixels, analytics solutions, and attribution systems to monitor and measure digital marketing efforts"
+        "Architected <strong>micro frontend</strong> solution to enable migration from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution",
+        "Led front end engineering efforts across a variety of stacks",
+        "Designed, developed, and implemented a reusable component library to convert modern components into static, cross-browser-ready artifacts",
+        "Improved first paint time 300% through a site migration from <strong>Wordpress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution",
+        "Led front end developer hiring by creating technical tests and interview processes",
+        "Administrated tracking pixels, analytics solutions, and attribution systems to monitor all digital marketing efforts"
       ]
     },
     {
       "company": "Southern Illinois University",
-      "position": "Web Developer & Research Assistant",
+      "position": "Student Web Developer",
       "website": "https://www.siu.edu",
       "startDate": "2014-01-20",
       "endDate": "2018-05-15",
-      "summary": "Working on the university website gave me the opportunity to write custom features for faculty, tech sessions on using our CMS, and help lead an holistic SEO initiative.",
+      "summary": "Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our CMS, and help lead an holistic SEO initiative.",
       "highlights": [
-        "Authored custom web pages, forms, and apps for university departments using HTML, CSS, JavaScript, and PHP",
-        "Organized and led classes detailing basic HTML, content creation, and best UI/UX practices for ~200 users",
-        "Designed and authored Python applications to speed up or automate bottlenecks in the team’s recurring workflows",
-        "Updated HTML meta descriptions, titles, content tags, structured data, and page content, improving SEO site-wide"
+        "Authored custom web pages, forms, and apps for university departments",
+        "Designed and authored <strong>Python</strong> applications to automate bottlenecks in the team’s recurring workflows",
+        "Organized and led classes on basic <strong>HTML</strong>, content creation, and best UI/UX practices for >200 users"
       ]
     },
     {
       "company": "MacUpdate",
-      "position": "Web Development Intern",
+      "position": "Web Developer Intern",
       "website": "https://www.macupdate.com",
       "startDate": "2016-06-01",
       "endDate": "2017-09-01",
       "summary": "I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.",
       "highlights": [
-        "Created a custom front end module loader using Grunt and Node JS, reducing average page size by 15%, or ~250KB per page",
-        "Led and organized an SEO audit, resulting in a 20% increase in organic search traffic, equaling over 30,000 additional sessions per week",
-        "Introduced responsive design to the site by using Bootstrap, jQuery, CSS, and HTML",
-        "Designed and developed a customizable, metadata-driven automatic email system using PHP and MySQL"
+        "Designed and implemented a front end build process, which fully automated front end asset builds and reduced average page size by 15%, or ~250KB per page",
+        "Organized an <strong>SEO</strong> audit and action plan, resulting in an organic search increase of 20%, or 30k+ sessions weekly",
+        "Introduced the site's first responsive design with a responsive navigation bar and footer",
+        "Developed a customizable, metadata-driven automatic email system, allowing better targeted email campaigns"
       ]
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Musician",
+      "startDate": "2010-05-01",
+      "endDate": "2014-01-01"
     }
-
   ],
   "education": [
     {
@@ -67,34 +71,33 @@
     }
   ],
   "skills": [
-
     {
       "name": "Languages",
       "keywords": [
-        "Javascript,",
+        "JavaScript,",
         "HTML,",
         "CSS,",
+        "SCSS,",
         "Python,",
         "PHP,",
         "MySQL,",
         "PostgreSQL,",
         "Java,",
+        "Bash",
         "C"
       ]
     },
     {
       "name": "Libraries",
       "keywords": [
-        "React JS,",
-        "Angular 1,",
-        "Angular 4,",
+        "React,",
+        "AngularJS,",
+        "Angular 2-4,",
         "jQuery,",
         "Bootstrap,",
         "Node,",
         "Django,",
         "Wordpress,",
-        "MJML,",
-        "Mustache,",
         "SCSS"
       ]
     },
@@ -102,39 +105,34 @@
       "name": "Tools",
       "keywords": [
         "Git,",
+        "Webpack,",
         "Gulp,",
         "Grunt,",
-        "Webpack,",
+        "Linux",
         "Vim,",
-        "Google Analytics,",
-        "Google Search Console,",
-        "Google Tag Manager,",
         "Hubspot,",
-        "Linux"
+        "Google Analytics & Search Console,"
       ]
     }
   ],
   "publications": [
     {
-      "name": "PersonaList",
-      "publisher": "PersonaList",
+      "name": "WAILto",
+      "releaseDate": "2019-10-01",
+      "website": "wailto.smessina.com",
+      "summary": "WAILto (or What Am I Listening To) is a way to analyze your own music listening trends and history. "
+    },
+    {
+      "name": "personaList",
       "releaseDate": "2018-10-01",
       "website": "personalist.smessina.com",
-      "summary": "PersonaList allows users to add comments to Spotify playlists, for easier playlist collaboration. PersonaList uses the Spotify API to pull data into a NodeJS server. The app is dynamically rendered with React, using the React Hooks API to acheive a functional model throughout the app."
+      "summary": "With personaList, you can comment up every song in your Spotify playlist. Pages are dynamically generated with JavaScript to show Spotify API data."
     },
     {
       "name": "Git Flow",
-      "publisher": "",
       "releaseDate": "2017-05-01",
       "website": "gitflow.smessina.com",
-      "summary": "Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in React, tutorial content is dynamically generated by manipulating React component state as users work through the flowchart."
-    },
-    {
-      "name": "OrderUp HookUp",
-      "publisher": "",
-      "releaseDate": "2016-08-01",
-      "website": "orderuphookup.smessina.com",
-      "summary": "OrderUp HookUp is a restaurant locator, which uses a Node and Express REST API to cross-reference Google location services with the Yelp Fusion Cloud API to find nearby restaurants. OrderUpHookUp is rendered using Angular 1."
+      "summary": "Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart."
     }
   ]
 }

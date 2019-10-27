@@ -19,26 +19,12 @@
       "startDate": "2018-06-01",
       "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
-        "Lead front end engineering, ensuring performance and accessibility, working with Python's Django templates, Hubspot HubL, and MJML as well as Angular 2 components and custom Wordpress themes using Gulp, SCSS, and ES6 JavaScript",
-        "Design, develop, and implement a component library, using Webpack to compile ES6 JavaScript and SCSS into static JavaScript and CSS, able to be used across the organization's diverse set of technologies",
-        "Increase performance 300% through a site migration from Wordpress to a custom Node and Gulp solution",
-        "Orchestrate Search Engine Optimization (SEO) strategy resulting in a 25% increase in organic search traffic",
-        "Lead hiring process for front end development positions, implementing technical tests and question sets to verify skills",
-        "Manage tracking pixels, analytics solutions, and attribution systems to monitor and measure all digital marketing efforts"
-      ]
-    },
-    {
-      "company": "Southern Illinois University",
-      "position": "Student Web Developer",
-      "website": "https://www.siu.edu",
-      "startDate": "2014-01-20",
-      "endDate": "2018-05-15",
-      "summary": "Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our CMS, and help lead an holistic SEO initiative.",
-      "highlights": [
-        "Authored custom web pages, forms, and apps for university departments using HTML, CSS, JavaScript, and PHP",
-        "Designed and authored Python applications to speed up or automate bottlenecks in the team’s recurring workflows",
-        "Organized and led classes detailing basic HTML, content creation, and best UI/UX practices for ~200 users",
-        "Improved SEO site-wide through HTML meta descriptions, titles, content tags, structured data, and page content "
+        "Architected <strong>micro frontend</strong> solution to migrate from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution",
+        "Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, native <strong>HTML/CSS/JavaScript</strong>, and custom <strong>MJML</strong> email templates",
+        "Designed, developed, and implemented a reusable component library, using <strong>Webpack</strong> to compile modular <strong>ES6+ JavaScript</strong> and <strong>SCSS</strong> into static, cross-browser-ready <strong>JavaScript</strong> and <strong>CSS</strong>",
+        "Improved first paint time 300% through a site migration from <strong>Wordpress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution",
+        "Led front end developer hiring by creating technical tests and interview processes to verify candidates' skills",
+        "Administrated tracking pixels, analytics solutions, and attribution systems to monitor all <strong>digital marketing</strong> efforts"
       ]
     },
     {
@@ -49,53 +35,76 @@
       "endDate": "2017-09-01",
       "summary": "I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.",
       "highlights": [
-        "Created a custom front end module loader using Grunt and Node JS, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page",
-        "Organized an SEO audit, resulting in a 20% increase in organic search, equaling over 30,000 weekly sessions",
-        "Introduced responsive design to the site by using Bootstrap, jQuery/JavaScript, CSS, and HTML to develop and implement a mobile responsive navigation bar and footer, deployed on all pages",
-        "Designed and developed a customizable, metadata-driven automatic email system using PHP and MySQL, allowing marketing teammates to better target and track email campaigns and increase conversion rate"
-
+        "Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page",
+        "Organized an <strong>SEO</strong> audit and action plan, resulting in an organic search increase of 20%, or 30k+ sessions weekly",
+        "Introduced the site's first responsive design with a responsive navigation bar and footer using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>",
+        "Developed a customizable, metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, allowing better targeted email campaigns"
       ]
+    },
+    {
+      "company": "Southern Illinois University",
+      "position": "Student Developer",
+      "website": "https://www.siu.edu",
+      "startDate": "2014-01-20",
+      "endDate": "2018-05-15",
+      "summary": "Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our <strong>CMS</strong>, and help lead an holistic <strong>SEO</strong> initiative.",
+      "highlights": [
+        "Authored custom web pages, forms, and apps for university departments using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong>",
+        "Designed and authored <strong>Python</strong> applications to automate bottlenecks in the team’s recurring workflows",
+        "Organized and led classes detailing basic <strong>HTML</strong>, content creation, and best <strong>UI/UX</strong> practices for >200 users",
+        "Improved <strong>SEO</strong> site-wide through HTML meta descriptions, titles, content tags, structured data, and page content "
+      ]
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Musician",
+      "startDate": "2010-05-01",
+      "endDate": "2014-01-01"
     }
-
   ],
   "education": [
     {
       "institution": "Southern Illinois University",
       "area": "Computer Science",
       "studyType": "B.S.",
+      "startDate": "2014-01-15",
       "endDate": "2018-05-15",
       "gpa": "3.74"
+    },
+    {
+      "institution": "Michigan State University",
+      "startDate": "2010-08-15",
+      "endDate": "2011-12-15"
     }
   ],
   "skills": [
-
     {
       "name": "Languages",
       "keywords": [
-        "Javascript,",
+        "JavaScript,",
         "HTML,",
         "CSS,",
+        "SCSS,",
         "Python,",
         "PHP,",
         "MySQL,",
         "PostgreSQL,",
         "Java,",
+        "Bash",
         "C"
       ]
     },
     {
       "name": "Libraries",
       "keywords": [
-        "React JS,",
-        "Angular 1,",
-        "Angular 4,",
+        "React,",
+        "AngularJS,",
+        "Angular 2-4,",
         "jQuery,",
         "Bootstrap,",
         "Node,",
         "Django,",
         "Wordpress,",
-        "MJML,",
-        "Mustache,",
         "SCSS"
       ]
     },
@@ -103,36 +112,34 @@
       "name": "Tools",
       "keywords": [
         "Git,",
+        "Webpack,",
         "Gulp,",
         "Grunt,",
-        "Webpack,",
+        "Linux",
         "Vim,",
-        "Google Analytics,",
-        "Google Search Console,",
-        "Google Tag Manager,",
         "Hubspot,",
-        "Linux"
+        "Google Analytics & Search Console,"
       ]
     }
   ],
   "publications": [
     {
-      "name": "PersonaList",
+      "name": "WAILto",
+      "releaseDate": "2019-10-01",
+      "website": "wailto.smessina.com",
+      "summary": "WAILto is a music history analysis app. Using <strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto provides modular, extensible data analysis and <strong>data visualizations</strong> on Last.fm data."
+    },
+    {
+      "name": "personaList",
       "releaseDate": "2018-10-01",
       "website": "personalist.smessina.com",
-      "summary": "PersonaList allows users to add comments to Spotify playlists, for easier playlist collaboration. PersonaList uses the Spotify API to pull data into a NodeJS server. The app is dynamically rendered with React, using the React Hooks API to acheive a functional model throughout the app."
+      "summary": "PersonaList allows users to add comments to Spotify playlists, allowing for more collaborative playlist creation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong> to acheive a functional model throughout the app."
     },
     {
       "name": "Git Flow",
       "releaseDate": "2017-05-01",
       "website": "gitflow.smessina.com",
-      "summary": "Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in React, tutorial content is dynamically generated by manipulating React component state as users work through the flowchart."
-    },
-    {
-      "name": "OrderUp HookUp",
-      "releaseDate": "2016-08-01",
-      "website": "orderuphookup.smessina.com",
-      "summary": "OrderUp HookUp is a restaurant locator, which uses a Node and Express REST API to cross-reference Google location services with the Yelp Fusion Cloud API to find nearby restaurants. OrderUpHookUp is rendered using Angular 1."
+      "summary": "Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in <strong>React</strong>, content is dynamically generated using <strong>React</strong> component state as users work through the flowchart."
     }
   ]
 }

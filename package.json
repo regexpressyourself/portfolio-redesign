@@ -4,7 +4,7 @@
 	"description": "Sam Messina's portfolio and Node server",
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js & gulp",
+		"start": "node portfolio.js & gulp",
 		"webpack": "webpack -d --watch --progress",
 		"build": "webpack --progress -p"
 	},

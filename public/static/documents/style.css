@@ -1,26 +1,123 @@
+html {
+  font-size: 12.5px;
+}
+html.short {
+  font-size: 13.75px;
+}
+@media screen {
+  html {
+    font-size: 16px;
+  }
+}
 body {
-  font-size: 8px;
-  font-family: Montserrat;
-  color: #333333;
+  font-family: Montserrat, sans-serif;
+  color: #333;
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1;
+  font-weight: 900;
+}
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  line-height: 0.9;
+  letter-spacing: -4px;
+  /*font-weight: 900;*/
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+h4 {
+  /*color: #4e4e4e;*/
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.top-hr {
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  padding-inline-start: 30px;
+}
+
+li {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0.2rem;
+}
+
 a {
-  color: #5079e1;
+  color: #4772d9;
   text-decoration: none;
+  font-family: 'Inconsolata', monospace;
 }
 
 a:visited {
-  color: #5079e1;
+  color: #4772d9;
 }
 
 a:hover {
-  color: #5079e1;
+  color: #4772d9;
   text-decoration: underline;
 }
 
 strong {
-  color: black;
+  font-weight: 700;
+}
+
+.date {
+  font-family: 'Montserrat', sans-serif;
+  /*color: #4e4e4e;*/
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0 0 0 70px;
+  text-align: right;
+}
+
+.gpa {
+  /*color: #4e4e4e;*/
+  font-size: 1rem;
+}
+
+.heading-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.heading-inline--publications * {
+  margin: 0;
+}
+.heading-inline--education:last-of-type {
+  margin-top: 8px;
 }
 
 .header {
@@ -28,19 +125,24 @@ strong {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  font-size: 2em;
+  font-size: 1rem;
   margin: 0;
 }
 
-h1 {
-  font-size: 3.5em;
-  margin: 0;
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.contact-links span {
+  display: flex;
+  align-items: center;
 }
 
-.profile {
-  font-family: Montserrat;
-  font-size: 1em;
-  margin: 0;
+.feather {
+  width: 1rem;
+  height: 1rem;
 }
 
 .contact-header {
@@ -49,137 +151,85 @@ h1 {
   text-align: right;
 }
 
-.label {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-.fa {
-  font-size: 2em;
-}
-
-.left {
-  font-size: 1em;
-}
-
 .main {
-  margin 0 auto;
+  margin: 0 auto;
 }
 
-h2 {
-  margin: 0;
-  font-size: 3.5em;
-}
-
-h3 {
-  margin-top: .2em;
-  font-size: 2em;
-  margin-bottom: 0;
-}
-
-h4 {
-  color: #4e4e4e;
-  font-size: 1.5em;
+.job-summary {
   margin: 0;
 }
-.highlights {
-  margin-bottom: 2em;
+
+.job-list {
+  margin-top: 0;
 }
 
-.skills {
-  margin-bottom: 10px;
+.publications-summary {
+  margin-top: 0;
 }
+
+.project-link {
+  font-size: 1rem;
+}
+
 .skill-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.skill-container > div {
-  margin: 0 10px;
-}
-.publications-summary {
-  margin-top: 0;
-}
-.publications__title {
-  display: flex;
-  align-items: center;
-}
-.publications__title *{
-  margin: 0;
-}
-hr {
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+.skill-section {
+  padding: 0 10px;
+  flex-basis: 33%;
 }
 
-p {
-  font-family: 'Open Sans';
-  font-size: 1.5em;
+.skill-section:first-of-type {
+  padding: 0 10px 0 0;
 }
 
-li {
-  font-family: 'Open Sans';
-  font-size: 1.5em;
+.skill-section:last-of-type {
+  padding: 0 0 0 10px;
 }
-.job {
-}
-.job p {
-  margin: 0;
-}
-.job ul {
-  margin-top: 0;
+
+.skill {
+  margin: 0 0 5px;
 }
 
 .keywords {
-  font-size: 1.2em;
+  font-size: 0.8rem;
   display: inline-block;
 }
 
-blockquote {
-  margin: 2em 10px;
-  padding: 1em 10px;
-  border-left: 10px solid #edf0f5;
-  font-family: 'Open Sans';
-  font-size: 1.5em;
+@media screen {
+  body {
+    padding: 5vh 5vw;
+  }
 }
 
-blockquote .name {
-  font-weight: bold;
-  font-family: "Montserrat";
+@media screen and (max-width: 1000px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
 }
 
-.responsive-show {
-  display: none;
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 900px;
+    margin: auto;
+  }
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .header {
-    font-size: 1.66em;
+    flex-wrap: wrap;
   }
-  h2 {
-    font-size: 3em;
+  .project-link {
+    display: block;
   }
-}
-
-@media (max-width: 500px) {
-  p {
-    font-size: 1.2em;
+  .contact-header {
+    text-align: left;
   }
-  li {
-    font-size: 1.2em;
-  }
-  blockquote {
-    font-size: 1.2em;
-  }
-  h2 {
-    font-size: 2.3em;
-  }
-  .responsive-hidden {
-    display: none;
-    visibility: hidden;
-  }
-  .responsive-show {
-    display: inline;
-    visibility: visible;
+  .skill-container {
+    flex-wrap: wrap;
   }
 }

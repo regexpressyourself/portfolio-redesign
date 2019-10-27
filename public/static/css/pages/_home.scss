@@ -217,8 +217,27 @@ h2 {
   margin-bottom: 40px;
 }
 
-span.contact-subhead {
-  font-size: calc(2.5vw + 12px);
+.contact-subhead {
+  font-size: calc(3vw + 12px);
+  line-height: 1;
+  ul {
+    padding-left: 0;
+  }
+  li {
+    padding: 0 0 20px  0;
+    margin: 0;
+    line-height: 1.2;
+    list-style: none;
+    a {
+      padding-bottom: 5px;
+      padding-top: 20px;
+    }
+  }
+  svg {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px -5px 0;
+  }
 }
 
 h1 {
@@ -665,13 +684,13 @@ p.dark {
   background-color: white;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
   padding: 5%;
-  div {
+  /*div {
     display: flex;
     align-items: flex-end;
     @media screen and (max-width: 768px) {
       flex-direction: column;
     }
-  }
+  }*/
   fieldset {
     margin: 20px 30px;
     display: flex;
