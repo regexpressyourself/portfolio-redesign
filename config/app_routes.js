@@ -36,6 +36,7 @@ module.exports = app => {
   app.use('/', express.static('public'));
   app.use('/docs', express.static('public/static/documents'));
   app.use('/images', express.static('public/static/images'));
+  app.use('/sm', express.static('public/static/images/sm.png'));
   app.use('/css', express.static('public/static/css'));
   app.use('/js', express.static('public/static/js'));
   app.use('/fonts', express.static('public/static/fonts'));
