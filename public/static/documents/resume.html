@@ -30,7 +30,7 @@
       rel="stylesheet"
     />
     <link
-      href="http://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans"
+      href="http://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open+Sans"
       rel="stylesheet"
       type="text/css"
     />
@@ -40,17 +40,18 @@
   font-size: 12.5px;
 }
 html.short {
-  font-size: 13.75px;
+  font-size: 13.5px;
 }
 @media screen {
   html {
-    font-size: 16px;
+    &#x2F;*font-size: 16px;*&#x2F;
   }
 }
 body {
   font-family: Montserrat, sans-serif;
   color: #333;
   margin: 0;
+  font-size: 12.5px;
 }
 
 h1,
@@ -77,11 +78,13 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  font-weight: 800;
 }
 
 h4 {
   &#x2F;*color: #4e4e4e;*&#x2F;
   font-size: 1rem;
+  font-weight: 800;
 }
 
 hr {
@@ -125,7 +128,7 @@ a:hover {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .date {
@@ -153,7 +156,7 @@ strong {
   margin: 0;
 }
 .heading-inline--education:last-of-type {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .header {
@@ -295,13 +298,13 @@ strong {
              
             <!--<span class="gpa"><br />GPA: 3.74</span>-->
           </h3>
-          <p class="date">May 2018</p>
+          <p class="date">Jan.  2014 - May  2018</p>
         </div>
         <div class="heading-inline heading-inline--education">
           <h3>
               Michigan State University 
           </h3>
-          <p class="date">Aug. 2010 - 2011</p>
+          <p class="date">Aug. 2010 - Dec.  2011</p>
         </div>
       </section>
 
@@ -311,10 +314,20 @@ strong {
         <h2>WORK EXPERIENCE</h2>
         <div class="job">
           <div class="heading-inline">
+            <h3>JavaScript Developer | Bitovi</h3>
+            <p class="date">
+              Feb. 2020 -
+              Present
+            </p>
+          </div>
+          <!--<p class="job-summary"></p>-->
+        </div>
+        <div class="job">
+          <div class="heading-inline">
             <h3>Front End Developer | TopstepTrader</h3>
             <p class="date">
               June 2018 -
-              Present
+              Feb. 2020
             </p>
           </div>
           <!--<p class="job-summary">As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.</p>-->
@@ -338,9 +351,9 @@ strong {
           <!--<p class="job-summary">I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.</p>-->
           <ul class="job-list">
             <li class="job-list__item">Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page</li>
-            <li class="job-list__item">Organized an <strong>SEO</strong> audit and action plan, resulting in an organic search increase of 20%, or 30k+ sessions weekly</li>
-            <li class="job-list__item">Introduced the site's first responsive design with a responsive navigation bar and footer using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong></li>
-            <li class="job-list__item">Developed a customizable, metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, allowing better targeted email campaigns</li>
+            <li class="job-list__item">Organized an <strong>SEO</strong> audit, resulting in an organic search increase of 20%, or 30k+ sessions weekly</li>
+            <li class="job-list__item">Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong></li>
+            <li class="job-list__item">Developed a metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, to target email campaigns</li>
           </ul>
         </div>
         <div class="job">
@@ -384,7 +397,7 @@ strong {
             2019
           </p>
         </div>
-        <p class="publications-summary">WAILto is a music history analysis app. Using Node, React Hooks, and PostgreSQL, WAILto provides modular, extensible data analysis visualizations on Last.fm data.</p>
+        <p class="publications-summary">WAILto is a music history analysis app. Using <strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto provides modular, extensible data analysis and <strong>data visualizations</strong> on Last.fm data.</p>
         <div class="heading-inline heading-inline--publications">
           <h3>
             personaList
@@ -396,7 +409,7 @@ strong {
             2018
           </p>
         </div>
-        <p class="publications-summary">PersonaList allows users to add comments to Spotify playlists, allowing for more collaborative playlist creation. PersonaList uses the Spotify API, a Node server, and React Hooks to acheive a functional model throughout the app.</p>
+        <p class="publications-summary">PersonaList allows users to add comments to Spotify playlists, allowing for more collaborative playlist creation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong> to acheive a functional model throughout the app.</p>
         <div class="heading-inline heading-inline--publications">
           <h3>
             Git Flow
@@ -408,7 +421,7 @@ strong {
             2017
           </p>
         </div>
-        <p class="publications-summary">Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in React, content is dynamically generated using React component state as users work through the flowchart.</p>
+        <p class="publications-summary">Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in <strong>React</strong>, content is dynamically generated using <strong>React</strong> component state as users work through the flowchart.</p>
       </section>
       <hr />
       <section id="skills">

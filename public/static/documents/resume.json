@@ -13,10 +13,20 @@
   },
   "work": [
     {
+      "company": "Bitovi",
+      "position": "JavaScript Developer",
+      "website": "https://www.topsteptrader.com",
+      "startDate": "2020-02-15",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
       "company": "TopstepTrader",
       "position": "Front End Developer",
       "website": "https://www.topsteptrader.com",
       "startDate": "2018-06-01",
+      "endDate": "2020-02-15",
       "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
         "Architected <strong>micro frontend</strong> solution to migrate from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution",
@@ -36,9 +46,9 @@
       "summary": "I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.",
       "highlights": [
         "Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page",
-        "Organized an <strong>SEO</strong> audit and action plan, resulting in an organic search increase of 20%, or 30k+ sessions weekly",
-        "Introduced the site's first responsive design with a responsive navigation bar and footer using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>",
-        "Developed a customizable, metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, allowing better targeted email campaigns"
+        "Organized an <strong>SEO</strong> audit, resulting in an organic search increase of 20%, or 30k+ sessions weekly",
+        "Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>",
+        "Developed a metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, to target email campaigns"
       ]
     },
     {
