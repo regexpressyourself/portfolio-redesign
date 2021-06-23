@@ -66,24 +66,20 @@
   <body id="home">
     <main>
       <header>
-        <div class="header__bg" style="color:white;"></div>
-        <h1 style="color:white;">
+        <div class="header__bg" style="color: white"></div>
+        <h1 style="color: white">
           <span id="sam">Sam</span><span id="smessina-tag">@smessina.com</span>
           <br />
           <span id="messina">Messina</span>
+          <h2 id="tagline" style="color: white">{{ Software Engineer }}</h2>
         </h1>
-        <h2 id="tagline" style="color:white;">{{ Web Developer }}</h2>
       </header>
       <section id="projects" class="portfolio-section">
         <div id="project-header">
           <div class="project-header__bg"></div>
           <div class="project-header-text">
-            <h2 class="project-header-h2">
-              Projects
-            </h2>
-            <span>
-              Some things I've worked on over the years.
-            </span>
+            <h2 class="project-header-h2">Projects</h2>
+            <span> Some things I've worked on over the years. </span>
             <p>
               Or check out my resume in
               <a href="/resume.pdf" target="_blank" rel="noopener">PDF</a>,
@@ -101,6 +97,50 @@
           </div>
         </div>
         <div class="portfolio-section__portfolio">
+          <div
+            id="toadstools"
+            class="portfolio__item portfolio__item--active portfolio__item--toadstools"
+          >
+            <div class="item__img-container">
+              <img src="/static/images/toadstools-logo.png" alt="toadstools" />
+              <div class="img-container__additional-pics">
+                <div class="additional-pics__container">
+                  <a target="_self" href="javascript:void(0)">
+                    <img
+                      src="/images/sss/toadstools-sss.png"
+                      class="aditional-pics__sss"
+                      alt="toadstools"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item__text-container">
+              <h3>
+                <span>Deno, React, React Hooks, HTML, CSS</span>
+                <a
+                  class="item__header-link"
+                  style="line-height: 0.9"
+                  href="https://toadstools.smessina.com"
+                  target="_blank"
+                  rel="noopener"
+                  >toadstools
+                </a>
+              </h3>
+              <p>
+                Toadstools offers widgets for live streamers to display "now
+                playing" information, countdown timers, etc.
+              </p>
+              <a
+                class="item__header-code-link"
+                href="https://github.com/regexpressyourself/toadstools"
+                target="_blank"
+                rel="noopener"
+                >{{ See the code }}</a
+              >
+            </div>
+          </div>
+
           <div
             id="wailto"
             class="portfolio__item portfolio__item--active portfolio__item--wailto"
@@ -126,7 +166,7 @@
                 >
                 <a
                   class="item__header-link"
-                  style="line-height: .9;"
+                  style="line-height: 0.9"
                   href="https://wailto.smessina.com"
                   target="_blank"
                   rel="noopener"
@@ -146,87 +186,7 @@
               >
             </div>
           </div>
-          <div
-            id="personalist"
-            class="portfolio__item portfolio__item--active portfolio__item--personalist"
-          >
-            <div class="item__img-container">
-              <img src="/images/personalist-fs8.png" alt="PersonalList" />
-              <div class="img-container__additional-pics">
-                <div class="additional-pics__container">
-                  <a target="_self" href="javascript:void(0)">
-                    <img
-                      src="/images/sss/pl-1-fs8.png"
-                      class="aditional-pics__sss"
-                      alt="PersonalList"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="item__text-container">
-              <h3>
-                <span
-                  >React, React Hooks API, Node, Express, HTML, SCSS, and
-                  Gulp.</span
-                >
-                <a
-                  class="item__header-link"
-                  href="https://personalist.smessina.com"
-                  target="_blank"
-                  rel="noopener"
-                  >personaList</a
-                >
-              </h3>
-              <p>
-                With personaList, you can comment up every song in your Spotify
-                playlist. Pages are dynamically generated with JavaScript to
-                show Spotify API data.
-              </p>
-              <a
-                class="item__header-code-link"
-                href="https://github.com/regexpressyourself/personalist"
-                target="_blank"
-                rel="noopener"
-                >{{ See the code }}</a
-              >
-            </div>
-          </div>
-          <div
-            id="blog"
-            class="portfolio__item portfolio__item--active portfolio__item--blog"
-          >
-            <div class="item__img-container">
-              <img src="/images/blog-logo-fs8.png" alt="PersonalList" />
-              <div class="img-container__additional-pics">
-                <div class="additional-pics__container">
-                  <a target="_self" href="javascript:void(0)">
-                    <img
-                      src="/images/sss/blog-devices-fs8-small.png"
-                      class="aditional-pics__sss"
-                      alt="Blog"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="item__text-container">
-              <h3>
-                <span>HTML, CSS, and JavaScript</span>
-                <a
-                  class="item__header-link"
-                  style="line-height: .9;"
-                  href="https://blog.smessina.com"
-                  target="_blank"
-                  rel="noopener"
-                  >blog<br />.smessina<br />.com</a
-                >
-              </h3>
-              <p>
-                Chronicling my debauchery in front end development.
-              </p>
-            </div>
-          </div>
+
           <div
             id="orderup-hookup"
             class="portfolio__item portfolio__item--active portfolio__item--orderup-hookup"
@@ -267,6 +227,87 @@
               <a
                 class="item__header-code-link"
                 href="https://github.com/regexpressyourself/OrderUp-HookUp"
+                target="_blank"
+                rel="noopener"
+                >{{ See the code }}</a
+              >
+            </div>
+          </div>
+
+          <div
+            id="blog"
+            class="portfolio__item portfolio__item--active portfolio__item--blog"
+          >
+            <div class="item__img-container">
+              <img src="/images/blog-logo-fs8.png" alt="PersonalList" />
+              <div class="img-container__additional-pics">
+                <div class="additional-pics__container">
+                  <a target="_self" href="javascript:void(0)">
+                    <img
+                      src="/images/sss/blog-devices-fs8-small.png"
+                      class="aditional-pics__sss"
+                      alt="Blog"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item__text-container">
+              <h3>
+                <span>HTML, CSS, and JavaScript</span>
+                <a
+                  class="item__header-link"
+                  style="line-height: 0.9"
+                  href="https://blog.smessina.com"
+                  target="_blank"
+                  rel="noopener"
+                  >blog<br />.smessina<br />.com</a
+                >
+              </h3>
+              <p>Chronicling my debauchery in front end development.</p>
+            </div>
+          </div>
+
+          <div
+            id="personalist"
+            class="portfolio__item portfolio__item--active portfolio__item--personalist"
+          >
+            <div class="item__img-container">
+              <img src="/images/personalist-fs8.png" alt="PersonalList" />
+              <div class="img-container__additional-pics">
+                <div class="additional-pics__container">
+                  <a target="_self" href="javascript:void(0)">
+                    <img
+                      src="/images/sss/pl-1-fs8.png"
+                      class="aditional-pics__sss"
+                      alt="PersonalList"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item__text-container">
+              <h3>
+                <span
+                  >React, React Hooks API, Node, Express, HTML, SCSS, and
+                  Gulp.</span
+                >
+                <a
+                  class="item__header-link"
+                  href="https://personalist.smessina.com"
+                  target="_blank"
+                  rel="noopener"
+                  >personaList</a
+                >
+              </h3>
+              <p>
+                With personaList, you can comment up every song in your Spotify
+                playlist. Pages are dynamically generated with JavaScript to
+                show Spotify API data.
+              </p>
+              <a
+                class="item__header-code-link"
+                href="https://github.com/regexpressyourself/personalist"
                 target="_blank"
                 rel="noopener"
                 >{{ See the code }}</a
@@ -640,8 +681,8 @@
       </footer>
     </main>
     <script type="text/javascript">
-      document.querySelector('header h1').style.display = 'block';
-      document.querySelector('header h2').style.display = 'block';
+      document.querySelector("header h1").style.display = "block";
+      document.querySelector("header h2").style.display = "block";
     </script>
     <script async src="./static/dist/bundle.js"></script>
   </body>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,18 +41,17 @@
   font-size: 12.5px;
 }
 html.short {
-  font-size: 13.5px;
+  font-size: 13.75px;
 }
 @media screen {
   html {
-    &#x2F;*font-size: 16px;*&#x2F;
+    font-size: 16px;
   }
 }
 body {
   font-family: Montserrat, sans-serif;
   color: #333;
   margin: 0;
-  font-size: 12.5px;
 }
 
 h1,
@@ -280,9 +280,9 @@ strong {
     <header class="header">
       <h1>SAM MESSINA</h1>
       <div class="contact-header">
-        Chicago, Illinois
+        Denver, CO
         <br />
-        231.633.0681
+
         <br />
         <a href="https:&#x2F;&#x2F;smessina.com" target="_blank">sam@smessina.com</a>
       </div>
@@ -294,17 +294,11 @@ strong {
         <h2>EDUCATION</h2>
         <div class="heading-inline heading-inline--education">
           <h3>
-             B.S. Computer Science | Southern Illinois University
-             
+             B.S. Computer Science <span style="font-weight: 300;">| Southern Illinois University</span>
+
             <!--<span class="gpa"><br />GPA: 3.74</span>-->
           </h3>
           <p class="date">Jan.  2014 - May  2018</p>
-        </div>
-        <div class="heading-inline heading-inline--education">
-          <h3>
-              Michigan State University 
-          </h3>
-          <p class="date">Aug. 2010 - Dec.  2011</p>
         </div>
       </section>
 
@@ -320,7 +314,13 @@ strong {
               Present
             </p>
           </div>
-          <!--<p class="job-summary"></p>-->
+          <!--<p class="job-summary">As a JavaScript consultant, I worked across the stack in a variety of applications to support our client. Whether it was designing new applications to process COVID-19 Payment Protection Program loans in 2020, or enhancing performance on legacy loan administration applications, I provided flexible, results-driven development support for clients.</p>-->
+          <ul class="job-list">
+            <li class="job-list__item">Developed spreadsheet application using <strong>RxJS</strong> and <strong>React</strong>, supporting reference cells and formulas</li>
+            <li class="job-list__item">Implemented cross-project <strong>micro frontend</strong> solution in <strong>React</strong> to transition from a legacy app to a new architecture while still adding new features, fixing old bugs, and addressing tech debt</li>
+            <li class="job-list__item">Deployed backend services in <strong>Node</strong> and <strong>Koa</strong> to integrate with <strong>React</strong> apps as well as third party services</li>
+            <li class="job-list__item">Managed a &ldquo;squad&rdquo; of four developers, focused on a single client application</li>
+          </ul>
         </div>
         <div class="job">
           <div class="heading-inline">
@@ -330,14 +330,13 @@ strong {
               Feb. 2020
             </p>
           </div>
-          <!--<p class="job-summary">As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.</p>-->
+          <!--<p class="job-summary">As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focused code and architecture, orchestrate testing and data analysis, and automate marketing processes.</p>-->
           <ul class="job-list">
             <li class="job-list__item">Architected <strong>micro frontend</strong> solution to migrate from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution</li>
-            <li class="job-list__item">Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, native <strong>HTML/CSS/JavaScript</strong>, and custom <strong>MJML</strong> email templates</li>
+            <li class="job-list__item">Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, and native <strong>HTML/CSS/JavaScript</strong></li>
             <li class="job-list__item">Designed, developed, and implemented a reusable component library, using <strong>Webpack</strong> to compile modular <strong>ES6+ JavaScript</strong> and <strong>SCSS</strong> into static, cross-browser-ready <strong>JavaScript</strong> and <strong>CSS</strong></li>
             <li class="job-list__item">Improved first paint time 300% through a site migration from <strong>Wordpress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution</li>
             <li class="job-list__item">Led front end developer hiring by creating technical tests and interview processes to verify candidates' skills</li>
-            <li class="job-list__item">Administrated tracking pixels, analytics solutions, and attribution systems to monitor all <strong>digital marketing</strong> efforts</li>
           </ul>
         </div>
         <div class="job">
@@ -353,7 +352,6 @@ strong {
             <li class="job-list__item">Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page</li>
             <li class="job-list__item">Organized an <strong>SEO</strong> audit, resulting in an organic search increase of 20%, or 30k+ sessions weekly</li>
             <li class="job-list__item">Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong></li>
-            <li class="job-list__item">Developed a metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, to target email campaigns</li>
           </ul>
         </div>
         <div class="job">
@@ -364,28 +362,28 @@ strong {
               May 2018
             </p>
           </div>
-          <!--<p class="job-summary">Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our &lt;strong&gt;CMS&lt;&#x2F;strong&gt;, and help lead an holistic &lt;strong&gt;SEO&lt;&#x2F;strong&gt; initiative.</p>-->
+          <!--<p class="job-summary">Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our CMS, and help lead an holistic SEO initiative.</p>-->
           <ul class="job-list">
-            <li class="job-list__item">Authored custom web pages, forms, and apps for university departments using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong></li>
-            <li class="job-list__item">Designed and authored <strong>Python</strong> applications to automate bottlenecks in the team’s recurring workflows</li>
+            <li class="job-list__item">Authored web pages, forms, and apps for university departments using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong></li>
             <li class="job-list__item">Organized and led classes detailing basic <strong>HTML</strong>, content creation, and best <strong>UI/UX</strong> practices for >200 users</li>
-            <li class="job-list__item">Improved <strong>SEO</strong> site-wide through HTML meta descriptions, titles, content tags, structured data, and page content </li>
           </ul>
-        </div>
-        <div class="job">
-          <div class="heading-inline">
-            <h3>Musician | Self-Employed</h3>
-            <p class="date">
-              May 2010 -
-              Jan. 2014
-            </p>
-          </div>
-          <!--<p class="job-summary"></p>-->
         </div>
       </section>
       <hr />
       <section id="publications" class="publications">
         <h2>PERSONAL PROJECTS</h2>
+        <div class="heading-inline heading-inline--publications">
+          <h3>
+            Toadstools
+            <a class="project-link" href="https://toadstools.smessina.com" target="_blank"
+              >toadstools.smessina.com</a
+            >
+          </h3>
+          <p class="date">
+            2020
+          </p>
+        </div>
+        <p class="publications-summary">Toadstools provides tools for streamers to add timers, song info, etc. to their streams using <strong>React</strong> and <strong>Deno</strong>.</p>
         <div class="heading-inline heading-inline--publications">
           <h3>
             WAILto
@@ -409,19 +407,7 @@ strong {
             2018
           </p>
         </div>
-        <p class="publications-summary">PersonaList allows users to add comments to Spotify playlists, allowing for more collaborative playlist creation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong> to acheive a functional model throughout the app.</p>
-        <div class="heading-inline heading-inline--publications">
-          <h3>
-            Git Flow
-            <a class="project-link" href="https://gitflow.smessina.com" target="_blank"
-              >gitflow.smessina.com</a
-            >
-          </h3>
-          <p class="date">
-            2017
-          </p>
-        </div>
-        <p class="publications-summary">Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in <strong>React</strong>, content is dynamically generated using <strong>React</strong> component state as users work through the flowchart.</p>
+        <p class="publications-summary">PersonaList allows users to add comments to Spotify playlists, allowing for collaborative playlist curation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong>.</p>
       </section>
       <hr />
       <section id="skills">
@@ -429,19 +415,19 @@ strong {
           <div class="skill-section">
             <h3 class="skill">Languages</h3>
             <span class="keywords">
-               JavaScript,  HTML,  CSS,  SCSS,  Python,  PHP,  MySQL,  PostgreSQL,  Java,  Bash  C 
+               JavaScript,  HTML,  CSS,  SCSS,  Python,  PHP,  MySQL,  PostgreSQL,  Java,  Bash  C
             </span>
           </div>
           <div class="skill-section">
             <h3 class="skill">Libraries</h3>
             <span class="keywords">
-               React,  AngularJS,  Angular 2-4,  jQuery,  Bootstrap,  Node,  Django,  Wordpress,  SCSS 
+               React,  Angular,  Node,  RxJS,  Redux,  Django,  Wordpress,  SCSS
             </span>
           </div>
           <div class="skill-section">
             <h3 class="skill">Tools</h3>
             <span class="keywords">
-               Git,  Webpack,  Gulp,  Grunt,  Linux  Vim,  Hubspot,  Google Analytics &amp; Search Console, 
+               Git,  Webpack,  Gulp,  Grunt,  nx  Linux  Vim,  Hubspot,  Google Analytics &amp; Search Console,
             </span>
           </div>
         </div>

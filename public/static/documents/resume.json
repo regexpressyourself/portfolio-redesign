@@ -3,22 +3,26 @@
     "name": "Sam Messina",
     "picture": "https://smessina.com/images/sm_fav.png",
     "email": "sam@smessina.com",
-    "phone": "231.633.0681",
+    "phone": "",
     "website": "https://smessina.com",
     "location": {
-      "city": "Chicago",
+      "city": "Denver",
       "countryCode": "US",
-      "region": "Illinois"
+      "region": "CO"
     }
   },
   "work": [
     {
       "company": "Bitovi",
       "position": "JavaScript Developer",
-      "website": "https://www.topsteptrader.com",
+      "website": "https://www.bitovi.com",
       "startDate": "2020-02-15",
-      "summary": "",
+      "summary": "As a JavaScript consultant, I worked across the stack in a variety of applications to support our client. Whether it was designing new applications to process COVID-19 Payment Protection Program loans in 2020, or enhancing performance on legacy loan administration applications, I provided flexible, results-driven development support for clients.",
       "highlights": [
+        "Developed spreadsheet application using <strong>RxJS</strong> and <strong>React</strong>, supporting reference cells and formulas",
+        "Implemented cross-project <strong>micro frontend</strong> solution in <strong>React</strong> to transition from a legacy app to a new architecture while still adding new features, fixing old bugs, and addressing tech debt",
+        "Deployed backend services in <strong>Node</strong> and <strong>Koa</strong> to integrate with <strong>React</strong> apps as well as third party services",
+        "Managed a &ldquo;squad&rdquo; of four developers, focused on a single client application"
       ]
     },
     {
@@ -27,14 +31,13 @@
       "website": "https://www.topsteptrader.com",
       "startDate": "2018-06-01",
       "endDate": "2020-02-15",
-      "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focussed code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
+      "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focused code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
         "Architected <strong>micro frontend</strong> solution to migrate from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution",
-        "Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, native <strong>HTML/CSS/JavaScript</strong>, and custom <strong>MJML</strong> email templates",
+        "Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, and native <strong>HTML/CSS/JavaScript</strong>",
         "Designed, developed, and implemented a reusable component library, using <strong>Webpack</strong> to compile modular <strong>ES6+ JavaScript</strong> and <strong>SCSS</strong> into static, cross-browser-ready <strong>JavaScript</strong> and <strong>CSS</strong>",
         "Improved first paint time 300% through a site migration from <strong>Wordpress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution",
-        "Led front end developer hiring by creating technical tests and interview processes to verify candidates' skills",
-        "Administrated tracking pixels, analytics solutions, and attribution systems to monitor all <strong>digital marketing</strong> efforts"
+        "Led front end developer hiring by creating technical tests and interview processes to verify candidates' skills"
       ]
     },
     {
@@ -47,8 +50,7 @@
       "highlights": [
         "Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page",
         "Organized an <strong>SEO</strong> audit, resulting in an organic search increase of 20%, or 30k+ sessions weekly",
-        "Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>",
-        "Developed a metadata-driven automatic email system using <strong>PHP</strong> and <strong>MySQL</strong>, to target email campaigns"
+        "Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>"
       ]
     },
     {
@@ -57,19 +59,11 @@
       "website": "https://www.siu.edu",
       "startDate": "2014-01-20",
       "endDate": "2018-05-15",
-      "summary": "Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our <strong>CMS</strong>, and help lead an holistic <strong>SEO</strong> initiative.",
+      "summary": "Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our CMS, and help lead an holistic SEO initiative.",
       "highlights": [
-        "Authored custom web pages, forms, and apps for university departments using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong>",
-        "Designed and authored <strong>Python</strong> applications to automate bottlenecks in the team’s recurring workflows",
-        "Organized and led classes detailing basic <strong>HTML</strong>, content creation, and best <strong>UI/UX</strong> practices for >200 users",
-        "Improved <strong>SEO</strong> site-wide through HTML meta descriptions, titles, content tags, structured data, and page content "
+        "Authored web pages, forms, and apps for university departments using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong>",
+        "Organized and led classes detailing basic <strong>HTML</strong>, content creation, and best <strong>UI/UX</strong> practices for >200 users"
       ]
-    },
-    {
-      "company": "Self-Employed",
-      "position": "Musician",
-      "startDate": "2010-05-01",
-      "endDate": "2014-01-01"
     }
   ],
   "education": [
@@ -80,11 +74,6 @@
       "startDate": "2014-01-15",
       "endDate": "2018-05-15",
       "gpa": "3.74"
-    },
-    {
-      "institution": "Michigan State University",
-      "startDate": "2010-08-15",
-      "endDate": "2011-12-15"
     }
   ],
   "skills": [
@@ -108,11 +97,10 @@
       "name": "Libraries",
       "keywords": [
         "React,",
-        "AngularJS,",
-        "Angular 2-4,",
-        "jQuery,",
-        "Bootstrap,",
+        "Angular,",
         "Node,",
+        "RxJS,",
+        "Redux,",
         "Django,",
         "Wordpress,",
         "SCSS"
@@ -125,6 +113,7 @@
         "Webpack,",
         "Gulp,",
         "Grunt,",
+        "nx",
         "Linux",
         "Vim,",
         "Hubspot,",
@@ -134,22 +123,22 @@
   ],
   "publications": [
     {
+      "name": "Toadstools",
+      "releaseDate": "2020-10-10",
+      "website": "toadstools.smessina.com",
+      "summary": "Toadstools provides tools for streamers to add timers, song info, etc. to their streams using <strong>React</strong> and <strong>Deno</strong>."
+    },
+    {
       "name": "WAILto",
-      "releaseDate": "2019-10-01",
+      "releaseDate": "2019-10-10",
       "website": "wailto.smessina.com",
       "summary": "WAILto is a music history analysis app. Using <strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto provides modular, extensible data analysis and <strong>data visualizations</strong> on Last.fm data."
     },
     {
       "name": "personaList",
-      "releaseDate": "2018-10-01",
+      "releaseDate": "2018-10-10",
       "website": "personalist.smessina.com",
-      "summary": "PersonaList allows users to add comments to Spotify playlists, allowing for more collaborative playlist creation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong> to acheive a functional model throughout the app."
-    },
-    {
-      "name": "Git Flow",
-      "releaseDate": "2017-05-01",
-      "website": "gitflow.smessina.com",
-      "summary": "Git Flow is an interactive git tutorial that walks users through a git workflow via a step-by-step flowchart. Written in <strong>React</strong>, content is dynamically generated using <strong>React</strong> component state as users work through the flowchart."
+      "summary": "PersonaList allows users to add comments to Spotify playlists, allowing for collaborative playlist curation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong>."
     }
   ]
 }
