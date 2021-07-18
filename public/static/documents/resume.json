@@ -13,10 +13,19 @@
   },
   "work": [
     {
+      "company": "Maxwell",
+      "position": "Senior Software Engineer",
+      "website": "https://www.himaxwell.com",
+      "startDate": "2021-07-15",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "company": "Bitovi",
       "position": "JavaScript Developer",
       "website": "https://www.bitovi.com",
       "startDate": "2020-02-15",
+      "endDate": "2021-07-01",
       "summary": "As a JavaScript consultant, I worked across the stack in a variety of applications to support our client. Whether it was designing new applications to process COVID-19 Payment Protection Program loans in 2020, or enhancing performance on legacy loan administration applications, I provided flexible, results-driven development support for clients.",
       "highlights": [
         "Developed spreadsheet application using <strong>RxJS</strong> and <strong>React</strong>, supporting reference cells and formulas",
@@ -123,10 +132,10 @@
   ],
   "publications": [
     {
-      "name": "Toadstools",
-      "releaseDate": "2020-10-10",
-      "website": "toadstools.smessina.com",
-      "summary": "Toadstools provides tools for streamers to add timers, song info, etc. to their streams using <strong>React</strong> and <strong>Deno</strong>."
+      "name": "HUB",
+      "releaseDate": "2021-07-01",
+      "website": "hubert.wiki",
+      "summary": "HUB is a personal wiki with full markdown and SMS upload support. HUB uses <strong>React</strong>, <strong>Node</strong>, <strong>Mongo</strong>, and <strong>Webhooks</strong> to provide customizable wikis that can be updated from anywhere."
     },
     {
       "name": "WAILto",

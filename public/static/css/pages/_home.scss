@@ -152,7 +152,6 @@ header,
   overflow: hidden;
 }
 
-
 #project-header {
   padding: 0 5%;
 }
@@ -189,22 +188,20 @@ header,
 
 .work-history__item {
   display: flex;
-  
 }
 .work-history__item .item__img-container {
-
-    & > img {
-      min-width: calc(30vw - 5px);
-      max-width: calc(30vw - 5px);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      @media screen and (max-width: 768px) {
-        min-height: 150px;
-        max-height: 150px;
-        max-width: 100%;
-      }
+  & > img {
+    min-width: calc(30vw - 5px);
+    max-width: calc(30vw - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      min-height: 150px;
+      max-height: 150px;
+      max-width: 100%;
     }
+  }
 }
 
 .project-header-text {
@@ -672,7 +669,7 @@ p.dark {
   background-color: #f0db4f;
 }
 .portfolio__item--wailto .item__img-container {
-  background-color: rgba(253, 208, 67, 0.3);
+  background-color: rgba(170, 92, 159, 0.2);
 }
 .portfolio__item--toadstools .item__img-container {
   background-color: #e3222312;
@@ -686,7 +683,7 @@ p.dark {
   background-color: #b3a2d2;
 }
 .portfolio__item--hub .item__img-container {
-  background-color: rgba(255, 174, 66, .3)
+  background-color: rgba(255, 174, 66, 0.5);
 }
 
 .portfolio__item--git-flow .item__img-container {
