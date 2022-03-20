@@ -1,21 +1,21 @@
-const webpack = require('webpack');
-const path = require('path');
-const TerserJSPlugin = require('terser-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require("webpack");
+const path = require("path");
+const TerserJSPlugin = require("terser-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   watch: true,
-  devtool: 'eval-source-map',
+  devtool: "eval-source-map",
 
   entry: {
-    main: './public/static/index.js',
+    main: "./public/static/index.js",
   },
 
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, './public/static/dist'),
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "./public/static/dist"),
   },
 
   optimization: {
@@ -28,9 +28,9 @@ module.exports = {
         test: /\.js?$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env'],
+            presets: ["@babel/preset-env"],
           },
         },
       },
@@ -39,53 +39,54 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           {
-            loader: 'css-loader',
-            options: {sourceMap: true},
+            loader: "css-loader",
+            options: { sourceMap: true },
           },
           {
-            loader: 'sass-loader',
-            options: {sourceMap: true},
+            loader: "sass-loader",
+            options: {
+              implementation: require("sass"),
+              sourceMap: true,
+            },
           },
-          'postcss-loader',
+          "postcss-loader",
         ],
       },
       {
         test: /\.(html)$/,
         use: [
           {
-            loader: 'html-loader',
+            loader: "html-loader",
             options: {
               minimize: true,
               removeComments: true,
               collapseWhitespace: true,
-              attrs: ['img:src']
-            }
+              attrs: ["img:src"],
+            },
           },
-        ]
+        ],
       },
       {
         test: /\.(png|jpg|svg)$/,
-        use: [
-          'file-loader',
-        ],
+        use: ["file-loader"],
       },
     ],
   },
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css',
+      filename: "[name].css",
+      chunkFilename: "[id].css",
     }),
 
     new webpack.SourceMapDevToolPlugin({
-      filename: '[file].map',
+      filename: "[file].map",
     }),
     new HtmlWebpackPlugin({
       inject: false,
       hash: true,
-      template: './public/index.html',
-      filename: 'index.html',
+      template: "./public/index.html",
+      filename: "index.html",
     }),
   ],
 };
