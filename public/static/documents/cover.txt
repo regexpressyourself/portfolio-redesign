@@ -1,0 +1,22 @@
+In 2011, I dropped out of university to play bass in a band. Over time, one band turned into many, and it fell to me to create and customize Wordpress sites for each. At the same time, I was working at a grocery store where I wrote up Python programs to automate my team's scheduling and ordering.
+
+Naturally, after moving on from music in 2014, I decided to go back to school and dive fully into my newfound passion of programming.
+
+While in school I worked on the university website writing CMS plugins and leading classes on basic HTML and CSS. I also interned at MacUpdate over my summers, where I introduced the application's first responsive design and implemented a front end build process. I am happy to say I graduated with a B.S. in computer science in May 2018.
+
+After graduating, I took a role at TopstepTrader. Hired as their first front end developer, I ended up leading a front end team of two. My proudest accomplishment at TopstepTrader was architecting, developing, and deploying a migration from an old monolithic codebase to a leaner, more performant solution.
+
+Upon leaving TopstepTrader, I moved on to Bitovi to work as a JavaScript consultant. During 2020-2021 at Bitovi, my team and I created multiple applications to allow financial institutions to handle Payment Protection Program loans for Covid-19 relief. Up against changing requirements from the U.S. government, tight deadlines, and a rapidly scaling user base, we were able to consistently deliver applications to handle loan origination and forgiveness with the U.S. Small Business Administration.
+
+Now I am taking the next step in my career, and would love to talk to you about it! Please don't hesitate to reach out by phone or email below.
+
+
+Best,
+
+Sam Messina
+231-633-0681
+sam@smessina.com
+
+
+
+
