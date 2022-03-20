@@ -197,7 +197,6 @@ header,
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 768px) {
-      min-height: 150px;
       max-height: 150px;
       max-width: 100%;
     }
@@ -478,7 +477,6 @@ p.dark {
       justify-content: center;
       align-items: center;
       @media screen and (max-width: 768px) {
-        min-height: 150px;
         max-height: 150px;
         max-width: 100%;
       }
