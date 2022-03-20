@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -36,241 +37,242 @@
     />
 
     <style>
-            html {
-        font-size: 12.5px;
-      }
-      html.short {
-        font-size: 13.75px;
-      }
-      @media screen {
-        html {
-          font-size: 16px;
-        }
-      }
-      body {
-        font-family: Montserrat, sans-serif;
-        color: #333;
-        margin: 0;
-      }
+      html {
+  font-size: 12.5px;
+}
+html.short {
+  font-size: 13.75px;
+}
+@media screen {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  margin: 0;
+}
 
-      h1,
-      h2,
-      h3,
-      h4 {
-        margin: 0;
-        line-height: 1;
-        font-weight: 900;
-      }
-      h1 {
-        font-size: 4rem;
-        text-align: left;
-        line-height: 0.9;
-        letter-spacing: -4px;
-        &#x2F;*font-weight: 900;*&#x2F;
-      }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1;
+  font-weight: 900;
+}
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  line-height: 0.9;
+  letter-spacing: -4px;
+  &#x2F;*font-weight: 900;*&#x2F;
+}
 
-      h2 {
-        font-size: 2.5rem;
-        margin-bottom: 0.6rem;
-        letter-spacing: -1px;
-      }
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: -1px;
+}
 
-      h3 {
-        font-size: 1.5rem;
-        font-weight: 800;
-      }
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
 
-      h4 {
-        &#x2F;*color: #4e4e4e;*&#x2F;
-        font-size: 1rem;
-        font-weight: 800;
-      }
+h4 {
+  &#x2F;*color: #4e4e4e;*&#x2F;
+  font-size: 1rem;
+  font-weight: 800;
+}
 
-      hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-style: solid;
-        border-color: rgba(0, 0, 0, 0.4);
-      }
-      .top-hr {
-        margin-top: 10px;
-      }
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.top-hr {
+  margin-top: 10px;
+}
 
-      p {
-        font-size: 1rem;
-        font-family: &#39;Open Sans&#39;, sans-serif;
-      }
+p {
+  font-size: 1rem;
+  font-family: &#39;Open Sans&#39;, sans-serif;
+}
 
-      ul {
-        padding-inline-start: 30px;
-      }
+ul {
+  padding-inline-start: 30px;
+}
 
-      li {
-        font-size: 1rem;
-        font-family: &#39;Open Sans&#39;, sans-serif;
-        margin-bottom: 0.2rem;
-      }
+li {
+  font-size: 1rem;
+  font-family: &#39;Open Sans&#39;, sans-serif;
+  margin-bottom: 0.2rem;
+}
 
-      a {
-        color: #4772d9;
-        text-decoration: none;
-        font-family: &#39;Inconsolata&#39;, monospace;
-      }
+a {
+  color: #4772d9;
+  text-decoration: none;
+  font-family: &#39;Inconsolata&#39;, monospace;
+}
 
-      a:visited {
-        color: #4772d9;
-      }
+a:visited {
+  color: #4772d9;
+}
 
-      a:hover {
-        color: #4772d9;
-        text-decoration: underline;
-      }
+a:hover {
+  color: #4772d9;
+  text-decoration: underline;
+}
 
-      strong {
-        font-weight: 700;
-      }
+strong {
+  font-weight: 700;
+}
 
-      .date {
-        font-family: &#39;Montserrat&#39;, sans-serif;
-        &#x2F;*color: #4e4e4e;*&#x2F;
-        font-size: 1rem;
-        font-weight: 900;
-        margin: 0 0 0 70px;
-        text-align: right;
-      }
+.date {
+  font-family: &#39;Montserrat&#39;, sans-serif;
+  &#x2F;*color: #4e4e4e;*&#x2F;
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0 0 0 70px;
+  text-align: right;
+}
 
-      .gpa {
-        &#x2F;*color: #4e4e4e;*&#x2F;
-        font-size: 1rem;
-      }
+.gpa {
+  &#x2F;*color: #4e4e4e;*&#x2F;
+  font-size: 1rem;
+}
 
-      .heading-inline {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 5px;
-      }
+.heading-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
 
-      .heading-inline--publications * {
-        margin: 0;
-      }
-      .heading-inline--education:last-of-type {
-        margin-top: 8px;
-      }
+.heading-inline--publications * {
+  margin: 0;
+}
+.heading-inline--education:last-of-type {
+  margin-top: 8px;
+}
 
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        font-size: 1rem;
-        margin: 0;
-      }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
 
-      .contact-links {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 10px;
-      }
-      .contact-links span {
-        display: flex;
-        align-items: center;
-      }
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.contact-links span {
+  display: flex;
+  align-items: center;
+}
 
-      .feather {
-        width: 1rem;
-        height: 1rem;
-      }
+.feather {
+  width: 1rem;
+  height: 1rem;
+}
 
-      .contact-header {
-        font-weight: 400;
-        line-height: 1.2;
-        text-align: right;
-      }
+.contact-header {
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: right;
+}
 
-      .main {
-        margin: 0 auto;
-      }
+.main {
+  margin: 0 auto;
+}
 
-      .job-summary {
-        margin: 0;
-      }
+.job-summary {
+  margin: 0;
+}
 
-      .job-list {
-        margin-top: 0;
-      }
+.job-list {
+  margin-top: 0;
+}
 
-      .publications-summary {
-        margin-top: 0;
-      }
+.publications-summary {
+  margin-top: 0;
+}
 
-      .project-link {
-        font-size: 1rem;
-      }
+.project-link {
+  font-size: 1rem;
+}
 
-      .skill-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-      }
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-      .skill-section {
-        padding: 0 10px;
-        flex-basis: 33%;
-      }
+.skill-section {
+  padding: 0 10px;
+  flex-basis: 33%;
+}
 
-      .skill-section:first-of-type {
-        padding: 0 10px 0 0;
-      }
+.skill-section:first-of-type {
+  padding: 0 10px 0 0;
+}
 
-      .skill-section:last-of-type {
-        padding: 0 0 0 10px;
-      }
+.skill-section:last-of-type {
+  padding: 0 0 0 10px;
+}
 
-      .skill {
-        margin: 0 0 5px;
-      }
+.skill {
+  margin: 0 0 5px;
+}
 
-      .keywords {
-        font-size: 0.8rem;
-        display: inline-block;
-      }
+.keywords {
+  font-size: 0.8rem;
+  display: inline-block;
+}
 
-      @media screen {
-        body {
-          padding: 5vh 5vw;
-        }
-      }
+@media screen {
+  body {
+    padding: 5vh 5vw;
+  }
+}
 
-      @media screen and (max-width: 1000px) {
-        body {
-          max-width: 90%;
-          margin: auto;
-        }
-      }
+@media screen and (max-width: 1000px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
+}
 
-      @media screen and (min-width: 1000px) {
-        body {
-          max-width: 900px;
-          margin: auto;
-        }
-      }
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 900px;
+    margin: auto;
+  }
+}
 
-      @media screen and (max-width: 500px) {
-        .header {
-          flex-wrap: wrap;
-        }
-        .project-link {
-          display: block;
-        }
-        .contact-header {
-          text-align: left;
-        }
-        .skill-container {
-          flex-wrap: wrap;
-        }
-      }
+@media screen and (max-width: 500px) {
+  .header {
+    flex-wrap: wrap;
+  }
+  .project-link {
+    display: block;
+  }
+  .contact-header {
+    text-align: left;
+  }
+  .skill-container {
+    flex-wrap: wrap;
+  }
+}
+
     </style>
   </head>
 
@@ -282,9 +284,7 @@
         <br />
 
         <br />
-        <a href="https:&#x2F;&#x2F;smessina.com" target="_blank"
-          >sam@smessina.com</a
-        >
+        <a href="https:&#x2F;&#x2F;smessina.com" target="_blank">sam@smessina.com</a>
       </div>
     </header>
 
@@ -294,12 +294,11 @@
         <h2>EDUCATION</h2>
         <div class="heading-inline heading-inline--education">
           <h3>
-            B.S. Computer Science
-            <span style="font-weight: 300">| Southern Illinois University</span>
+             B.S. Computer Science <span style="font-weight: 300;">| Southern Illinois University</span>
 
             <!--<span class="gpa"><br />GPA: 3.74</span>-->
           </h3>
-          <p class="date">Jan. 2014 - May 2018</p>
+          <p class="date">Jan.  2014 - May  2018</p>
         </div>
       </section>
 
@@ -310,117 +309,76 @@
         <div class="job">
           <div class="heading-inline">
             <h3>Senior Software Engineer | Maxwell</h3>
-            <p class="date">July 2021 - Present</p>
+            <p class="date">
+              July 2021 -
+              Present
+            </p>
           </div>
           <!--<p class="job-summary"></p>-->
+          <ul class="job-list">
+            <li class="job-list__item">Led initiative adding screen sharing functionality to the primary web application</li>
+            <li class="job-list__item">Created, launched, and contributed to the Maxwell engineering blog</li>
+          </ul>
         </div>
         <div class="job">
           <div class="heading-inline">
             <h3>JavaScript Developer | Bitovi</h3>
-            <p class="date">Feb. 2020 - July 2021</p>
+            <p class="date">
+              Feb. 2020 -
+              July 2021
+            </p>
           </div>
           <!--<p class="job-summary">As a JavaScript consultant, I worked across the stack in a variety of applications to support our client. Whether it was designing new applications to process COVID-19 Payment Protection Program loans in 2020, or enhancing performance on legacy loan administration applications, I provided flexible, results-driven development support for clients.</p>-->
           <ul class="job-list">
-            <li class="job-list__item">
-              Developed spreadsheet application using <strong>RxJS</strong> and
-              <strong>React</strong>, supporting reference cells and formulas
-            </li>
-            <li class="job-list__item">
-              Implemented cross-project <strong>micro frontend</strong> solution
-              in <strong>React</strong> to transition from a legacy app to a new
-              architecture while still adding new features, fixing old bugs, and
-              addressing tech debt
-            </li>
-            <li class="job-list__item">
-              Deployed backend services in <strong>Node</strong> and
-              <strong>Koa</strong> to integrate with <strong>React</strong> apps
-              as well as third party services
-            </li>
-            <li class="job-list__item">
-              Managed a &ldquo;squad&rdquo; of four developers, focused on a
-              single client application
-            </li>
+            <li class="job-list__item">Developed spreadsheet application using <strong>RxJS</strong> and <strong>React</strong>, supporting reference cells and formulas</li>
+            <li class="job-list__item">Implemented cross-project <strong>micro frontend</strong> solution in <strong>React</strong> to transition from a legacy app to a new architecture while still adding new features, fixing old bugs, and addressing tech debt</li>
+            <li class="job-list__item">Deployed backend services in <strong>Node</strong> and <strong>Koa</strong> to integrate with <strong>React</strong> apps as well as third party services</li>
+            <li class="job-list__item">Managed a &ldquo;squad&rdquo; of four developers, focused on a single client application</li>
           </ul>
         </div>
         <div class="job">
           <div class="heading-inline">
             <h3>Front End Developer | TopstepTrader</h3>
-            <p class="date">June 2018 - Feb. 2020</p>
+            <p class="date">
+              June 2018 -
+              Feb. 2020
+            </p>
           </div>
           <!--<p class="job-summary">As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focused code and architecture, orchestrate testing and data analysis, and automate marketing processes.</p>-->
           <ul class="job-list">
-            <li class="job-list__item">
-              Architected <strong>micro frontend</strong> solution to migrate
-              from an <strong>Angular 2</strong> monolith into a leaner,
-              <strong>React</strong> solution
-            </li>
-            <li class="job-list__item">
-              Led front end engineering team across a tech stacks including
-              <strong>Angular 2</strong>, <strong>React</strong>,
-              <strong>Python Django</strong> templates,
-              <strong>Hubspot HubL</strong>, custom
-              <strong>Wordpress</strong> themes, and native
-              <strong>HTML/CSS/JavaScript</strong>
-            </li>
-            <li class="job-list__item">
-              Designed, developed, and implemented a reusable component library,
-              using <strong>Webpack</strong> to compile modular
-              <strong>ES6+ JavaScript</strong> and <strong>SCSS</strong> into
-              static, cross-browser-ready <strong>JavaScript</strong> and
-              <strong>CSS</strong>
-            </li>
-            <li class="job-list__item">
-              Improved first paint time 300% through a site migration from
-              <strong>Wordpress</strong> to a faster <strong>Node</strong> and
-              <strong>Gulp</strong> solution
-            </li>
-            <li class="job-list__item">
-              Led front end developer hiring by creating technical tests and
-              interview processes to verify candidates' skills
-            </li>
+            <li class="job-list__item">Architected <strong>micro frontend</strong> solution to migrate from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution</li>
+            <li class="job-list__item">Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, and native <strong>HTML/CSS/JavaScript</strong></li>
+            <li class="job-list__item">Designed, developed, and implemented a reusable component library, using <strong>Webpack</strong> to compile modular <strong>ES6+ JavaScript</strong> and <strong>SCSS</strong> into static, cross-browser-ready <strong>JavaScript</strong> and <strong>CSS</strong></li>
+            <li class="job-list__item">Improved first paint time 300% through a site migration from <strong>Wordpress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution</li>
+            <li class="job-list__item">Led front end developer hiring by creating technical tests and interview processes to verify candidates' skills</li>
           </ul>
         </div>
         <div class="job">
           <div class="heading-inline">
             <h3>Web Developer Intern | MacUpdate</h3>
-            <p class="date">June 2016 - Sept. 2017</p>
+            <p class="date">
+              June 2016 -
+              Sept. 2017
+            </p>
           </div>
           <!--<p class="job-summary">I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.</p>-->
           <ul class="job-list">
-            <li class="job-list__item">
-              Designed and implemented a front end build process using
-              <strong>Grunt</strong> and <strong>Node</strong>, which fully
-              automated caching, bundling, and minification of front end assets,
-              and reduced average page size by 15%, or ~250KB per page
-            </li>
-            <li class="job-list__item">
-              Organized an <strong>SEO</strong> audit, resulting in an organic
-              search increase of 20%, or 30k+ sessions weekly
-            </li>
-            <li class="job-list__item">
-              Introduced responsive design using <strong>Bootstrap</strong>,
-              <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and
-              <strong>HTML</strong>
-            </li>
+            <li class="job-list__item">Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page</li>
+            <li class="job-list__item">Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong></li>
           </ul>
         </div>
         <div class="job">
           <div class="heading-inline">
             <h3>Student Developer | Southern Illinois University</h3>
-            <p class="date">Jan. 2014 - May 2018</p>
+            <p class="date">
+              Jan. 2014 -
+              May 2018
+            </p>
           </div>
           <!--<p class="job-summary">Working on the university website gave me the opportunity to write custom features for faculty, teach sessions on using our CMS, and help lead an holistic SEO initiative.</p>-->
           <ul class="job-list">
-            <li class="job-list__item">
-              Authored web pages, forms, and apps for university departments
-              using <strong>HTML</strong>, <strong>CSS</strong>,
-              <strong>JavaScript</strong>, and <strong>PHP</strong>
-            </li>
-            <li class="job-list__item">
-              Organized and led classes detailing basic <strong>HTML</strong>,
-              content creation, and best <strong>UI/UX</strong> practices for
-              >200 users
-            </li>
+            <li class="job-list__item">Authored web pages, forms, and apps for university departments using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong></li>
+            <li class="job-list__item">Organized and led classes detailing basic <strong>HTML</strong>, content creation, and best <strong>UI/UX</strong> practices for >200 users</li>
           </ul>
         </div>
       </section>
@@ -434,50 +392,23 @@
               >hubert.wiki</a
             >
           </h3>
-          <p class="date">2021</p>
+          <p class="date">
+            2021
+          </p>
         </div>
-        <p class="publications-summary">
-          HUB is a personal wiki with full markdown and SMS upload support. HUB
-          uses <strong>React</strong>, <strong>Node</strong>,
-          <strong>Mongo</strong>, and <strong>Webhooks</strong> to provide
-          customizable wikis that can be updated from anywhere.
-        </p>
+        <p class="publications-summary">HUB is a personal wiki with full markdown and SMS upload support. HUB uses <strong>React</strong>, <strong>Node</strong>, <strong>Mongo</strong>, and <strong>Webhooks</strong> to provide customizable wikis that can be updated from anywhere.</p>
         <div class="heading-inline heading-inline--publications">
           <h3>
             WAILto
-            <a
-              class="project-link"
-              href="https://wailto.smessina.com"
-              target="_blank"
+            <a class="project-link" href="https://wailto.smessina.com" target="_blank"
               >wailto.smessina.com</a
             >
           </h3>
-          <p class="date">2019</p>
+          <p class="date">
+            2019
+          </p>
         </div>
-        <p class="publications-summary">
-          WAILto is a music history analysis app. Using <strong>Node</strong>,
-          <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto
-          provides modular, extensible data analysis and
-          <strong>data visualizations</strong> on Last.fm data.
-        </p>
-        <div class="heading-inline heading-inline--publications">
-          <h3>
-            personaList
-            <a
-              class="project-link"
-              href="https://personalist.smessina.com"
-              target="_blank"
-              >personalist.smessina.com</a
-            >
-          </h3>
-          <p class="date">2018</p>
-        </div>
-        <p class="publications-summary">
-          PersonaList allows users to add comments to Spotify playlists,
-          allowing for collaborative playlist curation. PersonaList uses the
-          <strong>Spotify API</strong>, a <strong>Node server</strong>, and
-          <strong>React Hooks</strong>.
-        </p>
+        <p class="publications-summary">WAILto is a music history analysis app. Using <strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto provides modular, extensible data analysis and <strong>data visualizations</strong> on Last.fm data.</p>
       </section>
       <hr />
       <section id="skills">
@@ -485,21 +416,19 @@
           <div class="skill-section">
             <h3 class="skill">Languages</h3>
             <span class="keywords">
-              JavaScript, HTML, CSS, SCSS, Python, PHP, MySQL, PostgreSQL, Java,
-              Bash C
+               JavaScript,  HTML,  CSS,  SCSS,  Python,  PHP,  MySQL,  PostgreSQL,  Java,  Bash  C
             </span>
           </div>
           <div class="skill-section">
             <h3 class="skill">Libraries</h3>
             <span class="keywords">
-              React, Angular, Node, RxJS, Redux, Django, Wordpress, SCSS
+               React,  Angular,  Node,  RxJS,  Redux,  Django,  Wordpress,  SCSS
             </span>
           </div>
           <div class="skill-section">
             <h3 class="skill">Tools</h3>
             <span class="keywords">
-              Git, Webpack, Gulp, Grunt, nx Linux Vim, Hubspot, Google Analytics
-              &amp; Search Console,
+               Git,  Webpack,  Gulp,  Grunt,  nx  Linux  Vim,  Hubspot,  Google Analytics &amp; Search Console,
             </span>
           </div>
         </div>
