@@ -688,7 +688,7 @@ header,
   transform: skewY(-6deg);
   -webkit-transform-origin: top left;
   transform-origin: top left;
-  border-bottom: 1px solid #444242;
+  border-bottom: 5px solid #444242;
 }
 
 .work-history__bg {
