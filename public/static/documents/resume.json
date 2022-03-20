@@ -18,7 +18,10 @@
       "website": "https://www.himaxwell.com",
       "startDate": "2021-07-15",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Led initiative adding screen sharing functionality to the primary web application",
+        "Created, launched, and contributed to the Maxwell engineering blog"
+      ]
     },
     {
       "company": "Bitovi",
@@ -58,7 +61,6 @@
       "summary": "I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.",
       "highlights": [
         "Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page",
-        "Organized an <strong>SEO</strong> audit, resulting in an organic search increase of 20%, or 30k+ sessions weekly",
         "Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>"
       ]
     },
@@ -142,12 +144,6 @@
       "releaseDate": "2019-10-10",
       "website": "wailto.smessina.com",
       "summary": "WAILto is a music history analysis app. Using <strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto provides modular, extensible data analysis and <strong>data visualizations</strong> on Last.fm data."
-    },
-    {
-      "name": "personaList",
-      "releaseDate": "2018-10-10",
-      "website": "personalist.smessina.com",
-      "summary": "PersonaList allows users to add comments to Spotify playlists, allowing for collaborative playlist curation. PersonaList uses the <strong>Spotify API</strong>, a <strong>Node server</strong>, and <strong>React Hooks</strong>."
     }
   ]
 }
