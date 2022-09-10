@@ -674,6 +674,10 @@ p.dark {
   background-color: #e3222312;
 }
 
+.portfolio__item--wio .item__img-container {
+  background-color: #073A4B;
+  background-color: #1089B1;
+}
 .portfolio__item--orderup-hookup .item__img-container {
   background-color: #e6f8ed;
 }
@@ -685,12 +689,13 @@ p.dark {
   background-color: rgba(255, 174, 66, 0.5);
 }
 .portfolio__item--pp .item__img-container {
-  background-image: radial-gradient(
-    circle,
-    #95d5b2 0%,
-    #40916c 35%,
-    #1b4332 100%
-  );
+  background-color: #6eb692;
+  //background-image: radial-gradient(
+    //circle,
+    //#95d5b2 0%,
+    //#40916c 35%,
+    //#1b4332 100%
+  //);
 }
 
 .portfolio__item--git-flow .item__img-container {
