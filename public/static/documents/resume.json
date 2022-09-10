@@ -19,8 +19,10 @@
       "startDate": "2021-07-15",
       "summary": "",
       "highlights": [
-        "Led initiative adding screen sharing functionality to the primary web application",
-        "Created, launched, and contributed to the Maxwell engineering blog"
+        "Led initiative adding <a href='https://web.archive.org/web/20220415153623/https://knowledge.himaxwell.com/screen-share' target='_blank'>screen sharing functionality</a> to the primary application using <strong>React</strong> and <strong>Ruby on Rails</strong>",
+        "Created, launched, and contributed to the <a href='https://web.archive.org/web/20220119004530/https://engineering.himaxwell.com/' target='_blank'>Maxwell engineering blog</a>",
+        "Implemented web socket interface for asynchronous UI updates using <strong>React</strong> and <strong>Ruby on Rails</strong>",
+        "Acted as dev lead for initiative adding <a href='https://web.archive.org/web/20220411210900/https://finledger.com/2022/04/11/maxwell-and-snapdocs-partner-to-accelerate-home-loan-digital-closings/' target='_blank'>Snapdocs document e-closing integration</a> to the application using <strong>React</strong>, <strong>Webhooks</strong>, and <strong>Ruby on Rails</strong>"
       ]
     },
     {
@@ -31,9 +33,9 @@
       "endDate": "2021-07-01",
       "summary": "As a JavaScript consultant, I worked across the stack in a variety of applications to support our client. Whether it was designing new applications to process COVID-19 Payment Protection Program loans in 2020, or enhancing performance on legacy loan administration applications, I provided flexible, results-driven development support for clients.",
       "highlights": [
+        "Developed and deployed <a href='https://web.archive.org/web/20210613024914/https://www.bitovi.com/ux-design-consulting/ux-case-studies/bafs-ppp' target='_blank'>PPP loan application</a> as an integral part of project scoping, application architecture, and full-stack development using <strong>Node</strong>, <strong>Koa</strong>, and <strong>React</strong>",
+        "Implemented cross-project <strong>micro frontend</strong> solution in <strong>React</strong> to transition a legacy app to a new architecture",
         "Developed spreadsheet application using <strong>RxJS</strong> and <strong>React</strong>, supporting reference cells and formulas",
-        "Implemented cross-project <strong>micro frontend</strong> solution in <strong>React</strong> to transition from a legacy app to a new architecture while still adding new features, fixing old bugs, and addressing tech debt",
-        "Deployed backend services in <strong>Node</strong> and <strong>Koa</strong> to integrate with <strong>React</strong> apps as well as third party services",
         "Managed a &ldquo;squad&rdquo; of four developers, focused on a single client application"
       ]
     },
@@ -46,9 +48,9 @@
       "summary": "As the first front end developer at TopstepTrader, collaborate cross-departmentally to create reusable front end assets, maintain a high standard of front end focused code and architecture, orchestrate testing and data analysis, and automate marketing processes.",
       "highlights": [
         "Architected <strong>micro frontend</strong> solution to migrate from an <strong>Angular 2</strong> monolith into a leaner, <strong>React</strong> solution",
-        "Led front end engineering team across a tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>Wordpress</strong> themes, and native <strong>HTML/CSS/JavaScript</strong>",
+        "Led front end engineering team across tech stacks including <strong>Angular 2</strong>, <strong>React</strong>, <strong>Python Django</strong> templates, <strong>Hubspot HubL</strong>, custom <strong>WordPress</strong> themes, and native <strong>HTML/CSS/JavaScript</strong>",
         "Designed, developed, and implemented a reusable component library, using <strong>Webpack</strong> to compile modular <strong>ES6+ JavaScript</strong> and <strong>SCSS</strong> into static, cross-browser-ready <strong>JavaScript</strong> and <strong>CSS</strong>",
-        "Improved first paint time 300% through a site migration from <strong>Wordpress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution",
+        "Improved first paint time by 300% through a migration from <strong>WordPress</strong> to a faster <strong>Node</strong> and <strong>Gulp</strong> solution",
         "Led front end developer hiring by creating technical tests and interview processes to verify candidates' skills"
       ]
     },
@@ -60,7 +62,7 @@
       "endDate": "2017-09-01",
       "summary": "I interned with MacUpdate for two consecutive summers. During my first internship, I was able to lead an initiative in bringing responsive design to the site for the first time. My second summer with MacUpdate, I led an SEO initiative improving page performance and on-page SEO.",
       "highlights": [
-        "Designed and implemented a front end build process using <strong>Grunt</strong> and <strong>Node</strong>, which fully automated caching, bundling, and minification of front end assets, and reduced average page size by 15%, or ~250KB per page",
+        "Reduced average page size by 15% by designing and implementing a build process using <strong>Grunt</strong> and <strong>Node</strong>",
         "Introduced responsive design using <strong>Bootstrap</strong>, <strong>jQuery/JavaScript,</strong> <strong>CSS</strong>, and <strong>HTML</strong>"
       ]
     },
@@ -97,11 +99,10 @@
         "SCSS,",
         "Python,",
         "PHP,",
+        "Ruby,",
         "MySQL,",
         "PostgreSQL,",
-        "Java,",
-        "Bash",
-        "C"
+        "Bash"
       ]
     },
     {
@@ -113,8 +114,9 @@
         "RxJS,",
         "Redux,",
         "Django,",
-        "Wordpress,",
-        "SCSS"
+        "Rails,",
+        "WordPress,",
+        "SASS / SCSS"
       ]
     },
     {
@@ -124,26 +126,45 @@
         "Webpack,",
         "Gulp,",
         "Grunt,",
-        "nx",
-        "Linux",
+        "Linux,",
         "Vim,",
         "Hubspot,",
-        "Google Analytics & Search Console,"
+        "Google Analytics & Search Console"
       ]
     }
   ],
   "publications": [
     {
+      "name": "Playlist Parser",
+      "releaseDate": "2022-07-01",
+      "website": "pp.smessina.com",
+      "tech": "<strong>Remix</strong>, <strong>React</strong>, <strong>PostgreSQL</strong>, <strong>SCSS</strong>",
+      "source": "https://github.com/regexpressyourself/playlist-parser",
+      "summary": "Search Spotify playlists for a song"
+    },
+    {
       "name": "HUB",
       "releaseDate": "2021-07-01",
       "website": "hubert.wiki",
-      "summary": "HUB is a personal wiki with full markdown and SMS upload support. HUB uses <strong>React</strong>, <strong>Node</strong>, <strong>Mongo</strong>, and <strong>Webhooks</strong> to provide customizable wikis that can be updated from anywhere."
+      "tech": "<strong>React</strong>, <strong>Node</strong>, <strong>Mongo</strong>, and <strong>Webhooks</strong>",
+      "source": "https://github.com/regexpressyourself/hub",
+      "summary": "Personal wiki with markdown and SMS support."
+    },
+    {
+      "name": "toadstools",
+      "releaseDate": "2020-07-01",
+      "website": "toadstools.smessina.com",
+      "tech": "<strong>Deno</strong>, <strong>React</strong>, <strong>React</strong> Hooks",
+      "source": "https://github.com/regexpressyourself/toadstools",
+      "summary": "Display album art and timers on Twitch streams"
     },
     {
       "name": "WAILto",
       "releaseDate": "2019-10-10",
       "website": "wailto.smessina.com",
-      "summary": "WAILto is a music history analysis app. Using <strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>, WAILto provides modular, extensible data analysis and <strong>data visualizations</strong> on Last.fm data."
+      "source": "https://github.com/regexpressyourself/wailto",
+      "tech": "<strong>Node</strong>, <strong>React Hooks</strong>, and <strong>PostgreSQL</strong>",
+      "summary": "Data analysis and visualizations on Last.fm data."
     }
   ]
 }

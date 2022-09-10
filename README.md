@@ -18,7 +18,7 @@ My portfolio!
    yarn run start
 ```
 
-   That's it! Your development server is running at [http://localhost:3009](http://localhost:3009)
+   That's it! Your development server is running at [http://localhost:3008](http://localhost:3008)
    
 
 

@@ -29,6 +29,11 @@ module.exports = app => {
       path.join(__dirname, '../public/static/documents/resume.html'),
     );
   });
+  app.get('/exercise', (req, res) => {
+    res.sendFile(
+      path.join(__dirname, '../public/static/documents/dumbell.pdf'),
+    );
+  });
   app.get('/robots.txt', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/robots.txt'));
   });
@@ -37,6 +42,7 @@ module.exports = app => {
   app.use('/docs', express.static('public/static/documents'));
   app.use('/images', express.static('public/static/images'));
   app.use('/sm', express.static('public/static/images/sm.png'));
+  app.use('/head', express.static('public/static/images/headshot.jpg'));
   app.use('/css', express.static('public/static/css'));
   app.use('/js', express.static('public/static/js'));
   app.use('/fonts', express.static('public/static/fonts'));
